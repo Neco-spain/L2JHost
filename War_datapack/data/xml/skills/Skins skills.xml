@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<!-- Custom -->
+	<skill id="7718" levels="1" name="Knights Harmony">
+		<set name="mpInitialConsume" val="2"/>
+		<set name="mpConsume" val="7"/>
+		<set name="power" val="42"/>
+		<set name="target" val="SELF"/>
+		<set name="reuseDelay" val="6000"/>
+		<set name="hitTime" val="6000"/>
+		<set name="skillType" val="SKIN_EFFECT"/>
+		<set name="isMagic" val="false"/>
+		<set name="operateType" val="ACTIVE"/>
+		<set name="aggroPoints" val="10"/>
+	</skill>
+	<skill id="7728" levels="1" name="Warrior Harmony">
+		<set name="mpInitialConsume" val="2"/>
+		<set name="mpConsume" val="7"/>
+		<set name="power" val="42"/>
+		<set name="target" val="SELF"/>
+		<set name="reuseDelay" val="6000"/>
+		<set name="hitTime" val="6000"/>
+		<set name="skillType" val="SKIN_EFFECT"/>
+		<set name="isMagic" val="false"/>
+		<set name="operateType" val="ACTIVE"/>
+		<set name="aggroPoints" val="10"/>
+	</skill>
+	<skill id="7738" levels="1" name="Wizards Harmony">
+		<set name="mpInitialConsume" val="2"/>
+		<set name="mpConsume" val="7"/>
+		<set name="power" val="42"/>
+		<set name="target" val="SELF"/>
+		<set name="reuseDelay" val="6000"/>
+		<set name="hitTime" val="6000"/>
+		<set name="skillType" val="SKIN_EFFECT" />
+		<set name="isMagic" val="true"/>
+		<set name="operateType" val="ACTIVE"/>
+		<set name="aggroPoints" val="10"/>
+	</skill>
+</list>

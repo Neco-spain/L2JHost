@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list applyTaxes="true" maintainEnchantment="true">
+	<npcs>
+		<npc>16000</npc> <!-- Dusk Priestess -->
+	</npcs>
+	<item>
+		<ingredient id="9610" count="5"/>
+		<production id="958" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="9610" count="5"/>
+		<production id="954" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="9307" count="50"/>
+		<ingredient id="9308" count="1000"/>
+		<production id="950" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="9610" count="5"/>
+		<production id="732" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="9610" count="5"/>
+		<production id="962" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="9610" count="10"/>
+		<production id="9308" count="1000"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="9610" count="5"/>
+		<production id="957" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="9610" count="5"/>
+		<production id="953" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="9610" count="5"/>
+		<production id="949" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="9610" count="5"/>
+		<production id="731" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="9610" count="5"/>
+		<production id="961" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="9610" count="10"/>
+		<production id="9309" count="1000" enchant="0"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="9610" count="5"/>
+		<production id="9320" count="10" enchant="0"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="9610" count="5"/>
+		<production id="9321" count="10" enchant="20"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="9610" count="5"/>
+		<production id="9322" count="10" enchant="20"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+
+</list>

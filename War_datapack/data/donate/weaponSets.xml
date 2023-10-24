@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+<!-- HOME: ITEMS --> 
+<weaponset weaponName="Tallun Blade" weaponId="6580" priceId="4037" princeCount="125" enchantLevel="25" />
+<weaponset weaponName="Arcana Acumen" weaponId="6608" priceId="4037" princeCount="125" enchantLevel="25" />
+<weaponset weaponName="Arcana MpRegen" weaponId="6609" priceId="4037" princeCount="125" enchantLevel="25" />
+<weaponset weaponName="Arcana ManaUp" weaponId="6610" priceId="4037" princeCount="125" enchantLevel="25" />
+
+
+<weaponset weaponName="Hammer HpDain" weaponId="6584" priceId="4037" princeCount="125" enchantLevel="25" />
+<weaponset weaponName="Hammer Health" weaponId="6585" priceId="4037" princeCount="125" enchantLevel="25" />
+<weaponset weaponName="Hammer HpRegen" weaponId="6586" priceId="4037" princeCount="125" enchantLevel="25" />
+
+
+<weaponset weaponName="Demon Focus" weaponId="6602" priceId="4037" princeCount="125" enchantLevel="25" />
+<weaponset weaponName="Demon Health" weaponId="6603" priceId="4037" princeCount="125" enchantLevel="25" />
+<weaponset weaponName="Demon Crt.Stun" weaponId="6604" priceId="4037" princeCount="125" enchantLevel="25" />
+
+<weaponset weaponName="Spear Health" weaponId="6599" priceId="4037" princeCount="125" enchantLevel="25" />
+<weaponset weaponName="Spear Giudance" weaponId="6600" priceId="4037" princeCount="125" enchantLevel="25" />
+<weaponset weaponName="Spear Haste" weaponId="6601" priceId="4037" princeCount="125" enchantLevel="25" />
+
+<weaponset weaponName="Imeprial Empower" weaponId="6587" priceId="4037" princeCount="125" enchantLevel="25" />
+<weaponset weaponName="Imeprial MpRegen" weaponId="6588" priceId="4037" princeCount="125" enchantLevel="25" />
+<weaponset weaponName="Imeprial Magic Hold" weaponId="6589" priceId="4037" princeCount="125" enchantLevel="25" />
+
+<weaponset weaponName="Slayer Crt.Damage" weaponId="6590" priceId="4037" princeCount="125" enchantLevel="25" />
+<weaponset weaponName="Slayer Health" weaponId="6591" priceId="4037" princeCount="125" enchantLevel="25" />
+<weaponset weaponName="Slayer Haste" weaponId="6592" priceId="4037" princeCount="125" enchantLevel="25" />
+
+<weaponset weaponName="Forgotten Haste" weaponId="6581" priceId="4037" princeCount="125" enchantLevel="25" />
+<weaponset weaponName="Forgotten Health" weaponId="6582" priceId="4037" princeCount="125" enchantLevel="25" />
+<weaponset weaponName="Forgotten Focus" weaponId="6583" priceId="4037" princeCount="125" enchantLevel="25" />
+
+
+<weaponset weaponName="Heavens Divider Haste" weaponId="6605" priceId="4037" princeCount="125" enchantLevel="25" />
+<weaponset weaponName="Heavens Divider Health" weaponId="6606" priceId="4037" princeCount="125" enchantLevel="25" />
+<weaponset weaponName="Heavens Divider Focus" weaponId="6607" priceId="4037" princeCount="125" enchantLevel="25" />
+ 
+<weaponset weaponName="Shining Bow Cheap" weaponId="6593" priceId="4037" princeCount="125" enchantLevel="25" />
+<weaponset weaponName="Shining Bow Focus" weaponId="6594" priceId="4037" princeCount="125" enchantLevel="25" />
+<weaponset weaponName="Shining Bow Slow" weaponId="6595" priceId="4037" princeCount="125" enchantLevel="25" />
+
+
+<weaponset weaponName="Draconic Bow Cheap" weaponId="7576" priceId="4037" princeCount="125" enchantLevel="25" />
+<weaponset weaponName="Draconic Bow Focus" weaponId="7577" priceId="4037" princeCount="125" enchantLevel="25" />
+<weaponset weaponName="Draconic Bow Slow" weaponId="7578" priceId="4037" princeCount="125" enchantLevel="25" />
+
+</list>

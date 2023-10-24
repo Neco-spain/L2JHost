@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+     <item id="9999" type="EtcItem" name="ItemZone">
+        <set name="material" val="STEEL" />
+        <set name="is_stackable" val="true" />
+ 		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="duration" val="90" />
+ </item>
+ </list>

@@ -1,0 +1,71 @@
+<html>
+<title>dropList Manager (JDev) %npcName%</title>
+<body>
+
+<table width=260>
+<tr>
+	<td><button value="Back" action="bypass -h command home" width=65 height=16 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	<td><button value="DROP" action="bypass -h command drop_list" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	<td><button value="SPOIL" action="bypass -h command spoil_list" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	<td><button value="Add" action="bypass -h command npc_add_item" width=65 height=16 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+</tr>
+</table>
+<br>
+<center><font color="969696">Npc Info</font></center>	
+<img src="l2ui.SquareWhite" width=275 height=1><br1>
+
+<table width=260>
+<tr>
+<td height="40" width="40"></td>
+<td width="190">Npc Id: <font color="LEVEL">%npcId%</font><br1>Npc Name: <font color="00FFFF">%npcName%</font></td>
+</tr>
+</table>
+
+
+<img src="l2ui.SquareWhite" width=275 height=1><br>
+<center><font color="969696">Category By Id 0 = DROP By Id 1 = SPOIL</font></center>
+<img src="l2ui.SquareWhite" width=275 height=1><br>
+<center>
+
+<table width=260>
+<tr>
+<td height="40" width="40">Item Id:</td>
+<td width="190"><edit var="itemId" width=120 height=15></td>
+</tr>
+
+<tr>
+<td height="40" width="90">Category Id:</td>
+<td width="190"><td><edit var="category" width=120 height=15 type=number></td>
+</tr>
+
+
+<tr>
+<td height="40" width="90">Min:</td>
+<td width="190"><td><edit var="min" width=120 height=15 type=number></td>
+</tr>
+
+<tr>
+<td height="40" width="90">Max:</td>
+<td width="190"><td><edit var="max" width=120 height=15 type=number></td>
+</tr>
+
+<tr>
+<td height="40" width="110">Chance: 0 at 100</td>
+<td width="190"><td><edit var="chance" width=120 height=15 type=number></td>
+</tr>
+
+</table>
+
+<table width=260>
+<tr>
+	<td><button value="DropList" action="bypass -h command drop_list" width=65 height=16 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	<td><button value="SpoilList" action="bypass -h command spoil_list" width=65 height=16 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+
+	<td><button value="Add" action="bypass -h command set_add_item $itemId $category $min $max $chance" width=65 height=16 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+</tr>
+</table>
+
+</center>
+
+</body>
+</html>

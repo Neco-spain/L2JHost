@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="9900" type="EtcItem" name="PASS-ILHA">
+		<set name="icon" val="l2jhost.certification_gold" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+
+	</item>
+	<item id="9901" type="EtcItem" name="MATERIAL-PASS">
+		<set name="icon" val="l2jhost.certification_pink" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="60" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+</list>

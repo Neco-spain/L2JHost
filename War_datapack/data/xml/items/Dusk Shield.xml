@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<item id="9500" type="Armor" name="Dusk Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="188" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1170" />
+		<set name="price" val="3760000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+<item id="9501" type="Weapon" name="Dual Tears of Fallen Angel">
+        <set name="is_magical" val="true" />
+        <set name="default_action" val="equip" />
+        <set name="weapon_type" val="BLUNT" />
+        <set name="bodypart" val="lrhand" />
+        <set name="random_damage" val="20" />
+        <set name="attack_range" val="40" />
+        <set name="damage_range" val="0;0;40;120" />
+        <set name="crystal_count" val="2440" />
+        <set name="crystal_type" val="S" />
+        <set name="material" val="ADAMANTAITE" />
+        <set name="weight" val="1300" />
+        <set name="soulshots" val="1" />
+        <set name="spiritshots" val="1" />
+        <set name="is_oly_restricted" val="true" />
+        <for>
+            <set order="0x08" stat="pAtk" val="225" />
+            <set order="0x08" stat="mAtk" val="268" />
+            <set order="0x08" stat="rCrit" val="4" />
+            <add order="0x10" stat="accCombat" val="4" />
+            <set order="0x08" stat="pAtkSpd" val="379" />
+            <enchant val="0" order="0x0C" stat="pAtk" />
+            <enchant val="0" order="0x0C" stat="mAtk" />
+        </for>
+    </item>
+	<item id="9503" type="Weapon" name="Draconic Bow">
+		<set name="icon" val="icon.weapon_draconic_bow_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="crystal_count" val="2440" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1650" />
+		<set name="price" val="48800000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="11" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set stat="pAtk" val="581" />
+			<set stat="mAtk" val="132" />
+			<set stat="rCrit" val="12" />
+			<sub stat="accCombat" val="3" />
+			<set stat="pAtkSpd" val="293" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
+	</item>
+<item id="9504" type="Weapon" name="Dual Tears of Fallen Angel">
+        <set name="is_magical" val="true" />
+        <set name="default_action" val="equip" />
+        <set name="weapon_type" val="BLUNT" />
+        <set name="bodypart" val="lrhand" />
+        <set name="random_damage" val="20" />
+        <set name="attack_range" val="40" />
+        <set name="damage_range" val="0;0;40;120" />
+        <set name="crystal_count" val="2440" />
+        <set name="crystal_type" val="S" />
+        <set name="material" val="ADAMANTAITE" />
+        <set name="weight" val="1300" />
+        <set name="soulshots" val="1" />
+        <set name="spiritshots" val="1" />
+        <set name="is_oly_restricted" val="true" />
+        <for>
+            <set order="0x08" stat="pAtk" val="225" />
+            <set order="0x08" stat="mAtk" val="268" />
+            <set order="0x08" stat="rCrit" val="4" />
+            <add order="0x10" stat="accCombat" val="4" />
+            <set order="0x08" stat="pAtkSpd" val="379" />
+            <enchant val="0" order="0x0C" stat="pAtk" />
+            <enchant val="0" order="0x0C" stat="mAtk" />
+        </for>
+    </item>
+<item id="9505" type="Weapon" name="Dual Tears of Fallen Angel">
+        <set name="is_magical" val="true" />
+        <set name="default_action" val="equip" />
+        <set name="weapon_type" val="BLUNT" />
+        <set name="bodypart" val="lrhand" />
+        <set name="random_damage" val="20" />
+        <set name="attack_range" val="40" />
+        <set name="damage_range" val="0;0;40;120" />
+        <set name="crystal_count" val="2440" />
+        <set name="crystal_type" val="S" />
+        <set name="material" val="ADAMANTAITE" />
+        <set name="weight" val="1300" />
+        <set name="soulshots" val="1" />
+        <set name="spiritshots" val="1" />
+        <set name="is_oly_restricted" val="true" />
+        <for>
+            <set order="0x08" stat="pAtk" val="225" />
+            <set order="0x08" stat="mAtk" val="268" />
+            <set order="0x08" stat="rCrit" val="4" />
+            <add order="0x10" stat="accCombat" val="4" />
+            <set order="0x08" stat="pAtkSpd" val="379" />
+            <enchant val="0" order="0x0C" stat="pAtk" />
+            <enchant val="0" order="0x0C" stat="mAtk" />
+        </for>
+    </item>
+<item id="9506" type="Weapon" name="Dual Tears of Fallen Angel">
+        <set name="is_magical" val="true" />
+        <set name="default_action" val="equip" />
+        <set name="weapon_type" val="BLUNT" />
+        <set name="bodypart" val="lrhand" />
+        <set name="random_damage" val="20" />
+        <set name="attack_range" val="40" />
+        <set name="damage_range" val="0;0;40;120" />
+        <set name="crystal_count" val="2440" />
+        <set name="crystal_type" val="S" />
+        <set name="material" val="ADAMANTAITE" />
+        <set name="weight" val="1300" />
+        <set name="soulshots" val="1" />
+        <set name="spiritshots" val="1" />
+        <set name="is_oly_restricted" val="true" />
+        <for>
+            <set order="0x08" stat="pAtk" val="225" />
+            <set order="0x08" stat="mAtk" val="268" />
+            <set order="0x08" stat="rCrit" val="4" />
+            <add order="0x10" stat="accCombat" val="4" />
+            <set order="0x08" stat="pAtkSpd" val="379" />
+            <enchant val="0" order="0x0C" stat="pAtk" />
+            <enchant val="0" order="0x0C" stat="mAtk" />
+        </for>
+    </item>
+<item id="9507" type="Weapon" name="Dual Tears of Fallen Angel">
+        <set name="is_magical" val="true" />
+        <set name="default_action" val="equip" />
+        <set name="weapon_type" val="BLUNT" />
+        <set name="bodypart" val="lrhand" />
+        <set name="random_damage" val="20" />
+        <set name="attack_range" val="40" />
+        <set name="damage_range" val="0;0;40;120" />
+        <set name="crystal_count" val="2440" />
+        <set name="crystal_type" val="S" />
+        <set name="material" val="ADAMANTAITE" />
+        <set name="weight" val="1300" />
+        <set name="soulshots" val="1" />
+        <set name="spiritshots" val="1" />
+        <set name="is_oly_restricted" val="true" />
+        <for>
+            <set order="0x08" stat="pAtk" val="225" />
+            <set order="0x08" stat="mAtk" val="268" />
+            <set order="0x08" stat="rCrit" val="4" />
+            <add order="0x10" stat="accCombat" val="4" />
+            <set order="0x08" stat="pAtkSpd" val="379" />
+            <enchant val="0" order="0x0C" stat="pAtk" />
+            <enchant val="0" order="0x0C" stat="mAtk" />
+        </for>
+    </item>
+<item id="9508" type="Weapon" name="Dual Tears of Fallen Angel">
+        <set name="is_magical" val="true" />
+        <set name="default_action" val="equip" />
+        <set name="weapon_type" val="BLUNT" />
+        <set name="bodypart" val="lrhand" />
+        <set name="random_damage" val="20" />
+        <set name="attack_range" val="40" />
+        <set name="damage_range" val="0;0;40;120" />
+        <set name="crystal_count" val="2440" />
+        <set name="crystal_type" val="S" />
+        <set name="material" val="ADAMANTAITE" />
+        <set name="weight" val="1300" />
+        <set name="soulshots" val="1" />
+        <set name="spiritshots" val="1" />
+        <set name="is_oly_restricted" val="true" />
+        <for>
+            <set order="0x08" stat="pAtk" val="225" />
+            <set order="0x08" stat="mAtk" val="268" />
+            <set order="0x08" stat="rCrit" val="4" />
+            <add order="0x10" stat="accCombat" val="4" />
+            <set order="0x08" stat="pAtkSpd" val="379" />
+            <enchant val="0" order="0x0C" stat="pAtk" />
+            <enchant val="0" order="0x0C" stat="mAtk" />
+        </for>
+    </item>
+<item id="9509" type="Weapon" name="Dual Tears of Fallen Angel">
+        <set name="is_magical" val="true" />
+        <set name="default_action" val="equip" />
+        <set name="weapon_type" val="BLUNT" />
+        <set name="bodypart" val="lrhand" />
+        <set name="random_damage" val="20" />
+        <set name="attack_range" val="40" />
+        <set name="damage_range" val="0;0;40;120" />
+        <set name="crystal_count" val="2440" />
+        <set name="crystal_type" val="S" />
+        <set name="material" val="ADAMANTAITE" />
+        <set name="weight" val="1300" />
+        <set name="soulshots" val="1" />
+        <set name="spiritshots" val="1" />
+        <set name="is_oly_restricted" val="true" />
+        <for>
+            <set order="0x08" stat="pAtk" val="225" />
+            <set order="0x08" stat="mAtk" val="268" />
+            <set order="0x08" stat="rCrit" val="4" />
+            <add order="0x10" stat="accCombat" val="4" />
+            <set order="0x08" stat="pAtkSpd" val="379" />
+            <enchant val="0" order="0x0C" stat="pAtk" />
+            <enchant val="0" order="0x0C" stat="mAtk" />
+        </for>
+    </item>
+<item id="9510" type="Weapon" name="Dual Tears of Fallen Angel">
+        <set name="is_magical" val="true" />
+        <set name="default_action" val="equip" />
+        <set name="weapon_type" val="BLUNT" />
+        <set name="bodypart" val="lrhand" />
+        <set name="random_damage" val="20" />
+        <set name="attack_range" val="40" />
+        <set name="damage_range" val="0;0;40;120" />
+        <set name="crystal_count" val="2440" />
+        <set name="crystal_type" val="S" />
+        <set name="material" val="ADAMANTAITE" />
+        <set name="weight" val="1300" />
+        <set name="soulshots" val="1" />
+        <set name="spiritshots" val="1" />
+        <set name="is_oly_restricted" val="true" />
+        <for>
+            <set order="0x08" stat="pAtk" val="225" />
+            <set order="0x08" stat="mAtk" val="268" />
+            <set order="0x08" stat="rCrit" val="4" />
+            <add order="0x10" stat="accCombat" val="4" />
+            <set order="0x08" stat="pAtkSpd" val="379" />
+            <enchant val="0" order="0x0C" stat="pAtk" />
+            <enchant val="0" order="0x0C" stat="mAtk" />
+        </for>
+    </item>
+<item id="9511" type="Weapon" name="Dual Tears of Fallen Angel">
+        <set name="is_magical" val="true" />
+        <set name="default_action" val="equip" />
+        <set name="weapon_type" val="BLUNT" />
+        <set name="bodypart" val="lrhand" />
+        <set name="random_damage" val="20" />
+        <set name="attack_range" val="40" />
+        <set name="damage_range" val="0;0;40;120" />
+        <set name="crystal_count" val="2440" />
+        <set name="crystal_type" val="S" />
+        <set name="material" val="ADAMANTAITE" />
+        <set name="weight" val="1300" />
+        <set name="soulshots" val="1" />
+        <set name="spiritshots" val="1" />
+        <set name="is_oly_restricted" val="true" />
+        <for>
+            <set order="0x08" stat="pAtk" val="225" />
+            <set order="0x08" stat="mAtk" val="268" />
+            <set order="0x08" stat="rCrit" val="4" />
+            <add order="0x10" stat="accCombat" val="4" />
+            <set order="0x08" stat="pAtkSpd" val="379" />
+            <enchant val="0" order="0x0C" stat="pAtk" />
+            <enchant val="0" order="0x0C" stat="mAtk" />
+        </for>
+    </item>
+<item id="9512" type="Weapon" name="Dual Tears of Fallen Angel">
+        <set name="is_magical" val="true" />
+        <set name="default_action" val="equip" />
+        <set name="weapon_type" val="BLUNT" />
+        <set name="bodypart" val="lrhand" />
+        <set name="random_damage" val="20" />
+        <set name="attack_range" val="40" />
+        <set name="damage_range" val="0;0;40;120" />
+        <set name="crystal_count" val="2440" />
+        <set name="crystal_type" val="S" />
+        <set name="material" val="ADAMANTAITE" />
+        <set name="weight" val="1300" />
+        <set name="soulshots" val="1" />
+        <set name="spiritshots" val="1" />
+        <set name="is_oly_restricted" val="true" />
+        <for>
+            <set order="0x08" stat="pAtk" val="225" />
+            <set order="0x08" stat="mAtk" val="268" />
+            <set order="0x08" stat="rCrit" val="4" />
+            <add order="0x10" stat="accCombat" val="4" />
+            <set order="0x08" stat="pAtkSpd" val="379" />
+            <enchant val="0" order="0x0C" stat="pAtk" />
+            <enchant val="0" order="0x0C" stat="mAtk" />
+        </for>
+    </item>
+</list>

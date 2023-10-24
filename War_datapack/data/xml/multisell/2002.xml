@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list applyTaxes="true">
+	<npcs>
+		<npc>16000</npc> <!-- Dusk Priestess -->
+	</npcs>
+	<item>
+		<ingredient id="9309" count="200"/>
+		<production id="6575" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+
+		<ingredient id="9309" count="400"/>
+		<production id="6573" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+
+		<ingredient id="9309" count="600"/>
+		<production id="6571" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+
+		<ingredient id="9309" count="800"/>
+		<production id="6569" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+
+		<ingredient id="9309" count="1000"/>
+		<production id="6577" count="2"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="9309" count="1"/>
+		<production id="9309" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="9308" count="200"/>
+		<production id="6576" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="9308" count="400"/>
+		<production id="6574" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="9308" count="600"/>
+		<production id="6572" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="9308" count="800"/>
+		<production id="6570" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="9308" count="1000"/>
+		<production id="6578" count="2"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="9308" count="1"/>
+		<production id="9308" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="57" count="500000000"/>
+		<ingredient id="9308" count="2000"/>
+		<production id="958" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="57" count="500000000"/>
+		<ingredient id="9308" count="4000"/>
+		<production id="954" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="57" count="500000000"/>
+		<ingredient id="9308" count="6000"/>
+		<production id="950" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="57" count="500000000"/>
+		<ingredient id="9308" count="8000"/>
+		<production id="732" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="57" count="500000000"/>
+		<ingredient id="9308" count="10000"/>
+		<production id="962" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="9308" count="1"/>
+		<production id="9308" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="57" count="500000000"/>
+		<ingredient id="9309" count="2000"/>
+		<production id="957" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="57" count="500000000"/>
+		<ingredient id="9309" count="4000"/>
+		<production id="953" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="57" count="500000000"/>
+		<ingredient id="9309" count="6000"/>
+		<production id="949" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="57" count="500000000"/>
+		<ingredient id="9309" count="8000"/>
+		<production id="731" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="57" count="500000000"/>
+		<ingredient id="9309" count="10000"/>
+		<production id="961" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+	<item>
+		<ingredient id="9308" count="1"/>
+		<production id="9308" count="1"/>
+		<ingredient id="57" count="5000" isTaxIngredient="true"/>
+	</item>
+</list>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>	
+	<item id="9533" type="Armor" name="Cloak's of Baium">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="247" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="4000" />
+		<set name="price" val="4940000" />
+		<set name="item_skill" val="9561-1" />
+		<for>
+			<baseadd stat="pDef" val="48" />
+			<baseadd stat="mDef" val="48" />
+			<enchant stat="mDef" val="0" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+		<item id="9534" type="Armor" name="Cloak's of Baium Lv1">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="247" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="4000" />
+		<set name="price" val="4940000" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+			<addMul stat="poisonVuln" val="10" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+		<item id="9535" type="Armor" name="Cloak's of Baium Lv2">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="247" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="4000" />
+		<set name="price" val="4940000" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+			<addMul stat="poisonVuln" val="20" />
+			<add stat="accCombat" val="2" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9536" type="Armor" name="Cloak's of Baium Lv3">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="247" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="4000" />
+		<set name="price" val="4940000" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+			<addMul stat="poisonVuln" val="30" />
+			<add stat="accCombat" val="2" />
+			<mul stat="cAtk" val="1.15" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9537" type="Armor" name="Cloak's of Baium Lv4">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="247" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="4000" />
+		<set name="price" val="4940000" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+			<addMul stat="poisonVuln" val="40" />
+			<addMul stat="rootVuln" val="20" />
+			<add stat="accCombat" val="2" />
+			<mul stat="cAtk" val="1.15" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9538" type="Armor" name="Cloak's of Baium Lv5">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="247" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="4000" />
+		<set name="price" val="4940000" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+			<addMul stat="poisonVuln" val="50" />
+			<addMul stat="rootVuln" val="40" />
+			<add stat="accCombat" val="2" />
+			<mul stat="cAtk" val="1.15" />
+			<mul stat="pAtkSpd" val="1.04" />
+			<mul stat="mAtkSpd" val="1.04" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+</list>	

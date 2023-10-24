@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+   <npc id="50003">
+       <appearance name="kamael" nameColor="FFFFFF" title="Merchant" titleColor="FFFFFF" radius="0" height="0" race="0" sex="0" class="10" hairStyle="0" hairColor="3" face="0" hero="1" enchant="10"/>
+       <items rightHand="6579" leftHand="6377" chest="2407" legs="0" gloves="5767" feet="5779" hair="8563" hair2="0"/>
+       <clan clanId="0" clanCrest="0" allyId="0" allyCrest="0" pledge="0"/>
+   </npc>
+</list>

@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list maintainEnchantment="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+	<npcs>
+		<npc>16000</npc> <!-- GM SHOP -->
+	</npcs>
+
+  <!-- Blazing Heavy to Zubei's Heavy -->
+  <item>
+    <ingredient id="57" count="1000000"/>
+    <ingredient id="9550" count="1"/>
+    <production id="503" count="1"/>
+  </item>
+  <item>
+    <ingredient id="57" count="1000000"/>
+    <ingredient id="9551" count="1"/>
+    <production id="357" count="1"/>
+    <production id="383" count="1"/>
+  </item>
+   <item>
+    <ingredient id="57" count="1000000"/>
+    <ingredient id="9552" count="1"/>
+    <production id="5710" count="1"/>
+  </item>
+    <item>
+    <ingredient id="57" count="1000000"/>
+    <ingredient id="9553" count="1"/>
+    <production id="5726" count="1"/>
+  </item>
+  
+   <!-- Blazing Heavy to Avadon Heavy -->
+  <item>
+    <ingredient id="57" count="1000000"/>
+    <ingredient id="9550" count="1"/>
+    <production id="2415" count="1"/>
+  </item>
+  <item>
+    <ingredient id="57" count="1000000"/>
+    <ingredient id="9551" count="1"/>
+    <production id="2376" count="1"/>
+    <production id="2379" count="1"/>
+  </item>
+   <item>
+    <ingredient id="57" count="1000000"/>
+    <ingredient id="9552" count="1"/>
+    <production id="5714" count="1"/>
+  </item>
+    <item>
+    <ingredient id="57" count="1000000"/>
+    <ingredient id="9553" count="1"/>
+    <production id="5730" count="1"/>
+  </item>
+  
+   <!-- Blazing Heavy to Blue Wolf Heavy -->
+  <item>
+    <ingredient id="57" count="1000000"/>
+    <ingredient id="9550" count="1"/>
+    <production id="2416" count="1"/>
+  </item>
+  <item>
+    <ingredient id="57" count="1000000"/>
+    <ingredient id="9551" count="1"/>
+    <production id="358" count="1"/>
+    <production id="2380" count="1"/>
+  </item>
+   <item>
+    <ingredient id="57" count="1000000"/>
+    <ingredient id="9552" count="1"/>
+    <production id="5718" count="1"/>
+  </item>
+    <item>
+    <ingredient id="57" count="1000000"/>
+    <ingredient id="9553" count="1"/>
+    <production id="5734" count="1"/>
+  </item>
+  
+   <!-- Blazing Heavy to Doom Wolf Heavy -->
+  <item>
+    <ingredient id="57" count="1000000"/>
+    <ingredient id="9550" count="1"/>
+    <production id="2417" count="1"/>
+  </item>
+  <item>
+    <ingredient id="57" count="1000000"/>
+    <ingredient id="9551" count="1"/>
+    <production id="2381" count="1"/>
+  </item>
+   <item>
+    <ingredient id="57" count="1000000"/>
+    <ingredient id="9552" count="1"/>
+    <production id="5722" count="1"/>
+  </item>
+    <item>
+    <ingredient id="57" count="1000000"/>
+    <ingredient id="9553" count="1"/>
+    <production id="5738" count="1"/>
+  </item>
+  
+
+  <!-- Zubei's Heavy To Dark Crystal Heavy -->
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="503" count="1"/>
+    <production id="512" count="1"/>
+  </item>
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="357" count="1"/>
+    <ingredient id="383" count="1"/>
+    <production id="365" count="1"/>
+    <production id="388" count="1"/>
+  </item>
+   <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5710" count="1"/>
+    <production id="5765" count="1"/>
+  </item>
+    <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5726" count="1"/>
+    <production id="5777" count="1"/>
+  </item>
+  
+   <!-- Zubei's Heavy To Tallum Heavy -->
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="503" count="1"/>
+    <production id="547" count="1"/>
+  </item>
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="357" count="1"/>
+    <ingredient id="383" count="1"/>
+    <production id="2382" count="1"/>
+  </item>
+   <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5710" count="1"/>
+    <production id="5768" count="1"/>
+  </item>
+    <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5726" count="1"/>
+    <production id="5780" count="1"/>
+  </item>
+  
+   <!-- Zubei's Heavy To Nightmare  Heavy -->
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="503" count="1"/>
+    <production id="2418" count="1"/>
+  </item>
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="357" count="1"/>
+    <ingredient id="383" count="1"/>
+    <production id="374" count="1"/>
+  </item>
+   <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5710" count="1"/>
+    <production id="5771" count="1"/>
+  </item>
+    <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5726" count="1"/>
+    <production id="5783" count="1"/>
+  </item>
+  
+   <!-- Zubei's Heavy To Majestic Heavy   -->
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="503" count="1"/>
+    <production id="2419" count="1"/>
+  </item>
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="357" count="1"/>
+    <ingredient id="383" count="1"/>
+    <production id="2383" count="1"/>
+  </item>
+   <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5710" count="1"/>
+    <production id="5774" count="1"/>
+  </item>
+    <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5726" count="1"/>
+    <production id="5786" count="1"/>
+  </item>
+
+   <!-- Avadon Heavy to Dark Crystal -->
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="2415" count="1"/>
+    <production id="512" count="1"/>
+  </item>
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="2376" count="1"/>
+    <ingredient id="2379" count="1"/>
+    <production id="365" count="1"/>
+    <production id="388" count="1"/>
+  </item>
+   <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5714" count="1"/>
+    <production id="5765" count="1"/>
+  </item>
+    <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5730" count="1"/>
+    <production id="5777" count="1"/>
+  </item>
+  
+  <!-- Avadon Heavy to Nightmare -->
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="2415" count="1"/>
+    <production id="2418" count="1"/>
+  </item>
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="2376" count="1"/>
+    <ingredient id="2379" count="1"/>
+    <production id="374" count="1"/>
+  </item>
+   <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5714" count="1"/>
+    <production id="5771" count="1"/>
+  </item>
+    <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5730" count="1"/>
+    <production id="5783" count="1"/>
+  </item>
+  
+  <!-- Avadon Heavy to Majestic -->
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="2415" count="1"/>
+    <production id="2419" count="1"/>
+  </item>
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="2376" count="1"/>
+    <ingredient id="2379" count="1"/>
+    <production id="2383" count="1"/>
+  </item>
+   <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5714" count="1"/>
+    <production id="5774" count="1"/>
+  </item>
+    <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5730" count="1"/>
+    <production id="5786" count="1"/>
+  </item>
+  
+ <!-- Blue Wolf Heavy to Dark Crystal -->
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="2416" count="1"/>
+    <production id="512" count="1"/>
+  </item>
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="358" count="1"/>
+    <ingredient id="2380" count="1"/>
+    <production id="365" count="1"/>
+    <production id="388" count="1"/>
+  </item>
+   <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5718" count="1"/>
+    <production id="5765" count="1"/>
+  </item>
+    <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5734" count="1"/>
+    <production id="5777" count="1"/>
+  </item>
+  
+  <!-- Blue Wolf Heavy to Nightmare -->
+  <item>
+    <ingredient id="57" count="5000000"/>
+   <ingredient id="2416" count="1"/>
+    <production id="2418" count="1"/>
+  </item>
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="358" count="1"/>
+    <ingredient id="2380" count="1"/>
+    <production id="374" count="1"/>
+  </item>
+   <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5718" count="1"/>
+    <production id="5771" count="1"/>
+  </item>
+    <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5730" count="1"/>
+    <production id="5783" count="1"/>
+  </item>
+  
+  <!-- Blue Wolf Heavy to Majestic -->
+  <item>
+    <ingredient id="57" count="5000000"/>
+   <ingredient id="2416" count="1"/>
+    <production id="2419" count="1"/>
+  </item>
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="358" count="1"/>
+    <ingredient id="2380" count="1"/>
+    <production id="2383" count="1"/>
+  </item>
+   <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5718" count="1"/>
+    <production id="5774" count="1"/>
+  </item>
+    <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5730" count="1"/>
+    <production id="5786" count="1"/>
+  </item>
+
+ <!-- Doom Heavy to Dark Crystal -->
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="2417" count="1"/>
+    <production id="512" count="1"/>
+  </item>
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="2381" count="1"/>
+    <production id="365" count="1"/>
+    <production id="388" count="1"/>
+  </item>
+   <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5722" count="1"/>
+    <production id="5765" count="1"/>
+  </item>
+    <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5738" count="1"/>
+    <production id="5734" count="1"/>
+  </item>
+  
+  <!-- Doom Wolf Heavy to Nightmare -->
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="2417" count="1"/>
+    <production id="2418" count="1"/>
+  </item>
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="2381" count="1"/>
+    <production id="374" count="1"/>
+  </item>
+   <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5722" count="1"/>
+    <production id="5771" count="1"/>
+  </item>
+    <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5738" count="1"/>
+    <production id="5783" count="1"/>
+  </item>
+  
+  <!-- Doom Wolf Heavy to Majestic -->
+  <item>
+    <ingredient id="57" count="5000000"/>
+     <ingredient id="2417" count="1"/>
+    <production id="2419" count="1"/>
+  </item>
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="2381" count="1"/>
+    <production id="2383" count="1"/>
+  </item>
+   <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5722" count="1"/>
+    <production id="5774" count="1"/>
+  </item>
+    <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5738" count="1"/>
+    <production id="5786" count="1"/>
+  </item>
+  <!-- Dark Crystal Heavy to Imperial Crusader -->
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5575" count="5000000"/>
+    <ingredient id="512" count="1"/>
+    <production id="6679" count="1"/>
+  </item>
+  
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5575" count="5000000"/>
+    <ingredient id="365" count="1"/>
+    <ingredient id="388" count="1"/>
+	<production id="6674" count="1"/>
+    <production id="6675" count="1"/>
+  </item>
+  
+   <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5575" count="5000000"/>
+    <ingredient id="5765" count="1"/>
+    <production id="6676" count="1"/>
+  </item>
+  
+    <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5575" count="5000000"/>
+    <ingredient id="5777" count="1"/>
+    <production id="6677" count="1"/>
+  </item>
+  
+  <!-- Doom Heavy to Imperial Crusader -->
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5575" count="5000000"/>
+    <ingredient id="2418" count="1"/>
+    <production id="6679" count="1"/>
+  </item>
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5575" count="5000000"/>
+    <ingredient id="374" count="1"/>
+	<production id="6674" count="1"/>
+    <production id="6675" count="1"/>
+  </item>
+   <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5575" count="5000000"/>
+    <ingredient id="5771" count="1"/>
+    <production id="6676" count="1"/>
+  </item>
+    <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5575" count="5000000"/>
+    <ingredient id="5783" count="1"/>
+    <production id="6677" count="1"/>
+  </item>
+  
+  <!-- Doom Heavy to Imperial Crusader -->
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5575" count="5000000"/>
+    <ingredient id="2419" count="1"/>
+    <production id="6679" count="1"/>
+  </item>
+  <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5575" count="5000000"/>
+    <ingredient id="2383" count="1"/>
+	<production id="6674" count="1"/>
+    <production id="6675" count="1"/>
+  </item>
+   <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5575" count="5000000"/>
+    <ingredient id="5774" count="1"/>
+    <production id="6676" count="1"/>
+  </item>
+    <item>
+    <ingredient id="57" count="5000000"/>
+    <ingredient id="5575" count="5000000"/>
+    <ingredient id="5786" count="1"/>
+    <production id="6677" count="1"/>
+  </item>
+ <!-- Imperial Crusader Sealed to Imperial Crusader -->
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <ingredient id="5575" count="5000000"/>
+    <ingredient id="9608" count="2500"/>
+    <ingredient id="6679" count="1"/>
+    <production id="6378" count="1"/>
+  </item>
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <ingredient id="5575" count="5000000"/>
+    <ingredient id="9608" count="5000"/>
+    <ingredient id="6674" count="1"/>
+    <ingredient id="6675" count="1"/>
+	<production id="6373" count="1"/>
+    <production id="6374" count="1"/>
+  </item>
+   <item>
+    <ingredient id="57" count="10000000"/>
+    <ingredient id="5575" count="5000000"/>
+    <ingredient id="9608" count="2500"/>
+    <ingredient id="6676" count="1"/>
+    <production id="6375" count="1"/>
+  </item>
+    <item>
+    <ingredient id="57" count="10000000"/>
+    <ingredient id="5575" count="5000000"/>
+    <ingredient id="9608" count="2500"/>
+    <ingredient id="6677" count="1"/>
+    <production id="6376" count="1"/>
+  </item>
+  <!-- Imperial Crusader to Titanium Heavy -->
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <ingredient id="5575" count="5000000"/>
+    <ingredient id="9608" count="5000"/>
+    <ingredient id="6376" count="1"/>
+    <production id="9215" count="1"/>
+  </item>
+  <item>
+    <ingredient id="57" count="10000000"/>
+    <ingredient id="5575" count="5000000"/>
+    <ingredient id="9608" count="5000"/>
+    <ingredient id="6373" count="1"/>
+    <ingredient id="6374" count="1"/>
+	<production id="9216" count="1"/>
+    <production id="9217" count="1"/>
+  </item>
+   <item>
+    <ingredient id="57" count="10000000"/>
+    <ingredient id="5575" count="5000000"/>
+    <ingredient id="9608" count="5000"/>
+    <ingredient id="6375" count="1"/>
+    <production id="9218" count="1"/>
+  </item>
+    <item>
+    <ingredient id="57" count="10000000"/>
+    <ingredient id="5575" count="5000000"/>
+    <ingredient id="9608" count="5000"/>
+    <ingredient id="6376" count="1"/>
+    <production id="9219" count="1"/>
+  </item>
+  
+</list>

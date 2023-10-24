@@ -1,0 +1,49 @@
+<html>
+<title> Exclusive Donate Manager Transfer Action</title>
+<body>
+<center>
+
+<img src="exclusive.EventFestivalWnd_HeaderImg" width="256" height="64" />
+
+
+<img src="L2UI.SquareGray" width="300" height="1" />
+<table width="300" height="15" bgcolor="000000">
+<tr>
+	
+	<td align=left width=30><button value="" action="bypass donate purchase" width="32" height="32" back="exclusive.BackButton_over" fore="exclusive.BackButton"/></td>
+	<td align=center width=180>Automatic System <font color="LEVEL">Donate</font></td>
+	
+	<td align=right width=30></td>
+	
+</tr>
+</table>
+
+<img src="L2UI.SquareGray" width="300" height="1" />
+<center>
+<br1>
+
+</center>
+<img src="L2UI.SquareGray" width="300" height="1" />
+<br>
+<font color="LEVEL">Trasnfer Reward PlayerName and</font> 
+<font color="00FF00">[Online]</font>-<font color="999999">[Offline]</font><br1>
+%list%
+<br>
+<img src="L2UI.SquareGray" width="300" height="1" />
+<table width=240>
+	<tr><td>Player Name:</td><td><edit var="playername" width=100></td></tr>
+	<tr><td>Item Count:</td><td><edit var="itemnum" width=100 type=number></td></tr>
+	<tr><td>Location:</td><td><combobox width=100 height=17 var=location list=Inventory;Warehouse;></td><td> <button action="bypass donate end_transfer $playername $itemnum $location" width="32" height="32" back="exclusive.LCoinShopWnd_Buy_Button_Over" fore="exclusive.LCoinShopWnd_Buy_Button"> </td></tr>
+</table>
+		
+<img src="L2UI.SquareGray" width="300" height="1" />
+<table width="300" height="15">
+<tr>
+<td><center><font color="LEVEL">www.lineage.com</font></center></td>
+</tr>
+</table>
+<img src="L2UI.SquareGray" width="300" height="1" />
+
+</center>
+</body>
+</html>

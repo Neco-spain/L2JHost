@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+
+   <item id="9910" type="EtcItem" name="AIO Buffer">   
+   <set name="material" val="PAPER" />
+   <set name="price" val="10000" />
+   <set name="is_stackable" val="true" />
+   <set name="handler" val="AioItem"/>
+   </item>
+</list>

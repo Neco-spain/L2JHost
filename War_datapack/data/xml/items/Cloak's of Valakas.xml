@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>	
+	<item id="9515" type="Armor" name="Cloak's of Valakas">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="247" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="4000" />
+		<set name="price" val="4940000" />
+		<set name="item_skill" val="9558-1" />
+		<for>
+			<baseadd stat="pDef" val="48" />
+			<baseadd stat="mDef" val="48" />
+			<add stat="maxMp" val="500" />
+			<add stat="maxHp" val="500" />
+			<add stat="maxCp" val="500" />
+			<add stat="maxHp" val="445" />
+			<mul stat="pAtk" val="1.04" />
+			<mul stat="mAtk" val="1.08" />
+			<mul stat="mCritRate" val="2" />
+			<addMul stat="fireRes" val="15" />
+			<addMul stat="sleepVuln" val="80" />
+			<mul stat="pReuse" val="0.9" />
+			<mul stat="mReuse" val="0.9" />
+			<add stat="reflectDam" val="5" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+		<item id="9516" type="Armor" name="Cloak's of Valakas Lv1">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="247" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="4000" />
+		<set name="price" val="4940000" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+			<addMul stat="sleepVuln" val="10" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+		<item id="9517" type="Armor" name="Cloak's of Valakas Lv2">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="247" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="4000" />
+		<set name="price" val="4940000" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+				<add stat="maxHp" val="445" />
+			    <addMul stat="sleepVuln" val="20" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9518" type="Armor" name="Cloak's of Valakas Lv3">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="247" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="4000" />
+		<set name="price" val="4940000" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+			<add stat="maxHp" val="445" />
+			<addMul stat="sleepVuln" val="30" />
+			<mul stat="pReuse" val="0.9" />
+			<mul stat="mReuse" val="0.9" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9519" type="Armor" name="Cloak's of Valakas Lv4">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="247" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="4000" />
+		<set name="price" val="4940000" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+		    <add stat="maxHp" val="445" />
+			<mul stat="pAtk" val="1.04" />
+			<mul stat="mAtk" val="1.08" />
+			<mul stat="mCritRate" val="2" />
+			<addMul stat="fireRes" val="15" />
+			<addMul stat="sleepVuln" val="40" />
+			<mul stat="pReuse" val="0.9" />
+			<mul stat="mReuse" val="0.9" />
+			<add stat="reflectDam" val="5" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9520" type="Armor" name="Cloak's of Valakas Lv5">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="247" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="4000" />
+		<set name="price" val="4940000" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+		    <add stat="maxHp" val="445" />
+			<mul stat="pAtk" val="1.04" />
+			<mul stat="mAtk" val="1.08" />
+			<mul stat="mCritRate" val="2" />
+			<addMul stat="fireRes" val="15" />
+			<addMul stat="sleepVuln" val="50" />
+			<mul stat="pReuse" val="0.9" />
+			<mul stat="mReuse" val="0.9" />
+			<add stat="reflectDam" val="5" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+</list>	

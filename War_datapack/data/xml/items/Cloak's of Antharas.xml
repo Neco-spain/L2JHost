@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>	
+	<item id="9521" type="Armor" name="Cloak's of Antharas">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="247" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="4000" />
+		<set name="price" val="4940000" />
+		<set name="item_skill" val="9559-1" />
+		<for>
+			<baseadd stat="pDef" val="48" />
+			<baseadd stat="mDef" val="48" />
+			<add stat="maxMp" val="500" />
+			<add stat="maxHp" val="500" />
+			<add stat="maxCp" val="500" />
+			<addMul stat="earthRes" val="15" />
+			<addMul stat="bleedVuln" val="80" />
+			<addMul stat="stunVuln" val="60" />
+			<addMul stat="derangementVuln" val="60" />
+			<mul stat="gainHp" val="1.1" />
+			<mul stat="MagicalMpConsumeRate" val="0.95" />
+			<mul stat="PhysicalMpConsumeRate" val="0.95" />	
+			<add stat="absorbDam" val="4" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+		<item id="9522" type="Armor" name="Cloak's of Antharas Lv1">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="247" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="4000" />
+		<set name="price" val="4940000" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+			<addMul stat="earthRes" val="10" />
+			<addMul stat="bleedVuln" val="10" />
+			<addMul stat="stunVuln" val="10" />
+			<addMul stat="derangementVuln" val="10" />
+			<mul stat="gainHp" val="1.1" />
+			<add stat="absorbDam" val="4" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+		<item id="9523" type="Armor" name="Cloak's of Antharas Lv2">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="247" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="4000" />
+		<set name="price" val="4940000" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+			<addMul stat="earthRes" val="15" />
+			<addMul stat="bleedVuln" val="20" />
+			<addMul stat="stunVuln" val="20" />
+			<addMul stat="derangementVuln" val="20" />
+			<mul stat="gainHp" val="1.1" />
+			<add stat="absorbDam" val="4" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9524" type="Armor" name="Cloak's of Antharas Lv3">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="247" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="4000" />
+		<set name="price" val="4940000" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+			<addMul stat="earthRes" val="10" />
+			<addMul stat="bleedVuln" val="30" />
+			<addMul stat="stunVuln" val="30" />
+			<addMul stat="derangementVuln" val="30" />
+			<mul stat="gainHp" val="1.1" />
+			<add stat="absorbDam" val="4" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9525" type="Armor" name="Cloak's of Antharas Lv4">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="247" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="4000" />
+		<set name="price" val="4940000" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+			<addMul stat="earthRes" val="15" />
+			<addMul stat="bleedVuln" val="40" />
+			<addMul stat="stunVuln" val="40" />
+			<addMul stat="derangementVuln" val="40" />
+			<mul stat="gainHp" val="1.1" />
+			<mul stat="MagicalMpConsumeRate" val="0.95" />
+			<mul stat="PhysicalMpConsumeRate" val="0.95" />	
+			<add stat="absorbDam" val="4" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9526" type="Armor" name="Cloak's of Antharas Lv5">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="247" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="4000" />
+		<set name="price" val="4940000" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+			<addMul stat="earthRes" val="15" />
+			<addMul stat="bleedVuln" val="50" />
+			<addMul stat="stunVuln" val="50" />
+			<addMul stat="derangementVuln" val="50" />
+			<mul stat="gainHp" val="1.1" />
+			<mul stat="MagicalMpConsumeRate" val="0.95" />
+			<mul stat="PhysicalMpConsumeRate" val="0.95" />	
+			<add stat="absorbDam" val="4" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+</list>	
