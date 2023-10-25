@@ -22,6 +22,7 @@ import net.sf.l2j.commons.lang.StringUtil;
 import net.sf.l2j.commons.lang.Tokenizer;
 import net.sf.l2j.gameserver.communitybbs.CommunityBoard;
 import net.sf.l2j.gameserver.data.DropCalc;
+import net.sf.l2j.gameserver.data.SkillTable;
 import net.sf.l2j.gameserver.data.manager.BotsPreventionManager;
 import net.sf.l2j.gameserver.data.manager.HeroManager;
 import net.sf.l2j.gameserver.data.manager.SpawnManager;
@@ -52,10 +53,7 @@ import net.sf.l2j.gameserver.model.actor.Player;
 import net.sf.l2j.gameserver.model.actor.Summon;
 import net.sf.l2j.gameserver.model.actor.container.attackable.AggroList;
 import net.sf.l2j.gameserver.model.actor.container.npc.AggroInfo;
-import net.sf.l2j.gameserver.model.actor.instance.GrandBoss;
-import net.sf.l2j.gameserver.model.actor.instance.Monster;
-import net.sf.l2j.gameserver.model.actor.instance.OlympiadManagerNpc;
-import net.sf.l2j.gameserver.model.actor.instance.RaidBoss;
+import net.sf.l2j.gameserver.model.actor.instance.*;
 import net.sf.l2j.gameserver.model.donate.handler.HandlerArmorSet;
 import net.sf.l2j.gameserver.model.donate.handler.HandlerJewelList;
 import net.sf.l2j.gameserver.model.donate.handler.HandlerPayProcess;
@@ -66,6 +64,7 @@ import net.sf.l2j.gameserver.model.donate.handler.HandlerWeaponList;
 import net.sf.l2j.gameserver.model.donate.previwer.HtmlItemRecover;
 import net.sf.l2j.gameserver.model.item.DropCategory;
 import net.sf.l2j.gameserver.model.item.DropData;
+import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
 import net.sf.l2j.gameserver.model.item.kind.Item;
 import net.sf.l2j.gameserver.model.olympiad.OlympiadManager;
 import net.sf.l2j.gameserver.model.previwer.htm.GenerationDonateMain;
@@ -853,6 +852,39 @@ public final class RequestBypassToServer extends L2GameClientPacket
 		{
 			IVoicedCommandHandler vch = VoicedCommandHandler.getInstance().getHandler("mod_menu_");
 			vch.useVoicedCommand(_command, player, null);
+		}
+
+		// L2SkillSeller
+		else if (_command.startsWith("skill")) {
+			String b = _command.substring(5);
+			int id = 0;
+			try {
+				id = Integer.parseInt(b);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+
+			if (id == 0)
+				return;
+
+			L2Skill s = SkillTable.getInstance().getInfo(id, 10);
+			ItemInstance i = player.getInventory().getItemByItemId(L2SkillSellerInstance.ITEM_ID);
+
+			if (i == null || i.getCount() < L2SkillSellerInstance.ITEM_COUNT) {
+				player.sendMessage("You don't have enough gold bars");
+				return;
+			}
+
+			// Verifique se o jogador já possui a habilidade
+			if (player.getSkillLevel(s.getId()) > 0) {
+				player.sendMessage("Você já possui essa habilidade!");
+				return;
+			}
+
+			player.getInventory().destroyItemByItemId("", L2SkillSellerInstance.ITEM_ID, L2SkillSellerInstance.ITEM_COUNT, player, null);
+			player.sendMessage("You rewarded successfully with " + s.getName() + " Lvl:10, 5 Gold Bar disappeared");
+			player.addSkill(s, false);
+
 		}
 	}
 	

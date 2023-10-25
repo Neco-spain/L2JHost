@@ -27,6 +27,7 @@ import net.sf.l2j.gameserver.model.actor.cast.CreatureCast;
 import net.sf.l2j.gameserver.model.actor.container.creature.ChanceSkillList;
 import net.sf.l2j.gameserver.model.actor.container.creature.EffectList;
 import net.sf.l2j.gameserver.model.actor.container.creature.FusionSkill;
+import net.sf.l2j.gameserver.model.actor.instance.L2SkillSellerInstance;
 import net.sf.l2j.gameserver.model.actor.move.CreatureMove;
 import net.sf.l2j.gameserver.model.actor.status.CreatureStatus;
 import net.sf.l2j.gameserver.model.actor.template.CreatureTemplate;
@@ -56,6 +57,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+
+import static net.sf.l2j.gameserver.handler.itemhandlers.SummonItems.getNpcId;
 
 /**
  * An instance type extending {@link WorldObject} which represents the mother class of all character objects of the world such as players, NPCs and monsters.
@@ -1424,6 +1427,17 @@ public abstract class Creature extends WorldObject
 	@Override
 	public void onAction(Player player, boolean isCtrlPressed, boolean isShiftPressed)
 	{
+		if (getNpcId() == L2SkillSellerInstance.NPC_ID)
+		{
+			ItemInstance i = player.getInventory().getItemByItemId(L2SkillSellerInstance.ITEM_ID);
+
+			if (i == null || i.getCount() < L2SkillSellerInstance.ITEM_COUNT)
+			{
+				player.sendMessage("You need " + L2SkillSellerInstance.ITEM_COUNT + " Gold Bars to use this Npc.");
+				player.sendPacket(new ActionFailed());
+				return;
+			}
+		}
 		// Set the target of the player
 		if (player.getTarget() != this)
 			player.setTarget(this);

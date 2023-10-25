@@ -72,6 +72,11 @@ public final class Config {
 
 	public static int BOSS_EVENT_MAX_PLAYERS_PER_IP;
 
+	public static int ID_NPC_SKILL_SELLER;
+	public static int ITEM_ID_SKILL_SELLER;
+	public static int QUANT_OF_GOLD_ITEM;
+	public static final Map<Integer, Integer> SKILLIDSSELLER = new HashMap<>();
+
 	public static final Map<Integer, Integer> SKILLCLASS1 = new HashMap<>();
 	public static final Map<Integer, Integer> SKILLCLASS2 = new HashMap<>();
 	public static final Map<Integer, Integer> SKILLCLASS3 = new HashMap<>();
@@ -3155,6 +3160,16 @@ public final class Config {
 		for (String skillInfo : Skillslist.split(";")) {
 			String[] info = skillInfo.split(",");
 			RANDOM_SKILLS.put(Integer.parseInt(info[0]), Integer.parseInt(info[1]));
+		}
+		//npcSeller
+		ID_NPC_SKILL_SELLER = rusacis.getProperty("idNpcSeller", 15021992);
+		ITEM_ID_SKILL_SELLER = rusacis.getProperty("ItemIDVendaSkill", 57);
+		QUANT_OF_GOLD_ITEM = rusacis.getProperty("QuantidadeItem", 1);
+
+		String SkillSeller = rusacis.getProperty("SkillIds");
+		for (String skillInfo : SkillSeller.split(";")) {
+			String[] info = skillInfo.split(",");
+			SKILLIDSSELLER.put(Integer.parseInt(info[0]), Integer.parseInt(info[1]));
 		}
 	}
 
