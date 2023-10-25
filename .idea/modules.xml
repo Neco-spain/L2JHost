@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/git/L2JHost/War_datapack/War_datapack.iml" filepath="$USER_HOME$/git/L2JHost/War_datapack/War_datapack.iml" />
+      <module fileurl="file://$USER_HOME$/git/L2JHost/War_gameserver/War_gameserver.iml" filepath="$USER_HOME$/git/L2JHost/War_gameserver/War_gameserver.iml" />
+    </modules>
+  </component>
+</project>
