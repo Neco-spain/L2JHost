@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AntConfiguration">
+    <buildFile url="file://$USER_HOME$/git/L2JHost/War_datapack/build.xml" />
+    <buildFile url="file://$USER_HOME$/git/L2JHost/War_gameserver/build.xml" />
+  </component>
+</project>
