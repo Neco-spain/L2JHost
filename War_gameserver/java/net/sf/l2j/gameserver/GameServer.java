@@ -4,6 +4,7 @@ import l2jhost.DollSystem.DollsData;
 import l2jhost.RandomCraft.RandomCraftXML;
 import l2jhost.data.IconTable;
 import l2jhost.data.custom.CapsuleBox.CapsuleBoxData;
+import l2jhost.data.custom.SkillBox.SkillBoxData;
 import net.sf.l2j.Config;
 import net.sf.l2j.commons.lang.StringUtil;
 import net.sf.l2j.commons.logging.CLogger;
@@ -277,6 +278,9 @@ public class GameServer {
 
 			StringUtil.printSection("CapsuleBox - Terius");
 			CapsuleBoxData.getInstance();
+
+			StringUtil.printSection("SkillBox - L2jhost");
+			SkillBoxData.getInstance();
 
 			StringUtil.printSection("RandomCraft - Terius");
 			RandomCraftXML.getInstance();

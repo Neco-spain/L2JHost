@@ -46,7 +46,7 @@ public class ZoneItem extends SpawnZoneType
             L2Skill skill = SkillTable.getInstance().getInfo(BUFF_ID, BUFF_LEVEL);
             if (skill != null)
             {
-                player.addSkill(skill, false);
+                player.addSkill(skill, true);
                 player.sendSkillList();
             }
 			player.sendPacket(SystemMessageId.ENTERED_COMBAT_ZONE);
@@ -66,11 +66,11 @@ public class ZoneItem extends SpawnZoneType
 		{
 			Player player = (Player) character;
 
-			// Remove the item from the player's inventory
+			// Remove 1 of the required item from the player's inventory
 			ItemInstance requiredItem = player.getInventory().getItemByItemId(REQUIRED_ITEM_ID);
-			if (requiredItem != null && requiredItem.getCount() > 1)
+			if (requiredItem != null)
 			{
-				player.destroyItem("ZoneExit", requiredItem, player, true);
+				player.destroyItem("ZoneExit", requiredItem, 1, player, true);  // Ajustado para remover sempre 1 item
 			}
 
 			// Remove the buff from the player

@@ -3,6 +3,7 @@ package net.sf.l2j.gameserver.handler;
 import l2jhost.data.custom.AioItem;
 import net.sf.l2j.gameserver.handler.itemhandlers.*;
 import net.sf.l2j.gameserver.handler.itemhandlers.custom.*;
+import net.sf.l2j.gameserver.handler.itemhandlers.custom.skillseller.SkillBox;
 import net.sf.l2j.gameserver.model.item.kind.EtcItem;
 
 import java.util.HashMap;
@@ -67,6 +68,8 @@ public class ItemHandler {
 		registerHandler(new BuySkillClass18());
 		registerHandler(new BuySkillClass19());
 		registerHandler(new BuySkillClass20());
+		registerHandler(new CoinPremium());
+		registerHandler(new SkillBox());
 
 	}
 

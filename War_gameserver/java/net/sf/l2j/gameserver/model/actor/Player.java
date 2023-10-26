@@ -7208,11 +7208,12 @@ public final class Player extends Playable {
 
 		if (Config.USE_PREMIUM_SERVICE) {
 			try (Connection con = ConnectionPool.getConnection();
-					PreparedStatement ps = con.prepareStatement(RESTORE_PREMIUMSERVICE)) {
+				 PreparedStatement ps = con.prepareStatement(RESTORE_PREMIUMSERVICE)) {
 				ps.setString(1, getAccountName());
 				try (ResultSet rs = ps.executeQuery()) {
-					while (rs.next())
+					if (rs.next()) {
 						endDate = rs.getLong("enddate");
+					}
 				}
 			} catch (Exception e) {
 				LOGGER.warn("PremiumService: Could not restore prem service data " + e);

@@ -3,7 +3,7 @@ package net.sf.l2j.gameserver.network.serverpackets;
 import java.util.ArrayList;
 import java.util.List;
 
-public final class SkillList extends L2GameServerPacket
+public class SkillList extends L2GameServerPacket
 {
 	private final List<Skill> _skills;
 	

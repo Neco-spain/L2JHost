@@ -30,7 +30,7 @@ public class PremiumStatus implements IVoicedCommandHandler
 				htm.replace("%rate_drop%", Config.RATE_DROP_ITEMS);
 				htm.replace("%rate_spoil%", Config.RATE_DROP_SPOIL);
 				htm.replace("%rate_currency%", Config.RATE_DROP_CURRENCY);
-				htm.replace("%current%", String.valueOf(format.format(System.currentTimeMillis())));
+				htm.replace("%current%", format.format(System.currentTimeMillis()));
 				htm.replace("%prem_rate_xp%", Config.PREMIUM_RATE_XP);
 				htm.replace("%prem_rate_sp%", Config.PREMIUM_RATE_SP);
 				htm.replace("%prem_rate_drop%", Config.PREMIUM_RATE_DROP_ITEMS);
@@ -48,8 +48,8 @@ public class PremiumStatus implements IVoicedCommandHandler
 				htm.replace("%prem_rate_drop%", Config.PREMIUM_RATE_DROP_ITEMS);
 				htm.replace("%prem_rate_spoil%", Config.PREMIUM_RATE_DROP_SPOIL);
 				htm.replace("%prem_currency%", Config.PREMIUM_RATE_DROP_CURRENCY);
-				htm.replace("%expires%", String.valueOf(format.format(player.getPremServiceData())));
-				htm.replace("%current%", String.valueOf(format.format(System.currentTimeMillis())));
+				htm.replace("%expires%", format.format(player.getPremServiceData()));
+				htm.replace("%current%", format.format(System.currentTimeMillis()));
 				player.sendPacket(htm);
 			}
 		}
