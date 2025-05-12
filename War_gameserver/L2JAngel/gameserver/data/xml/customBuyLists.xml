@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<buyList id="1" npcId="16000">
+		<product id="1" price="883"/>
+		<product id="4" price="883"/>
+		<product id="11" price="883"/>
+		<product id="13" price="883"/>
+		<product id="3" price="14375"/>
+		<product id="152" price="9280"/>
+		<product id="12" price="14375"/>
+		<product id="215" price="14375"/>
+		<product id="14" price="14375"/>
+		<product id="5" price="14375"/>
+		<product id="153" price="21275"/>
+		<product id="1333" price="62215"/>
+		<product id="66" price="62215"/>
+		<product id="67" price="62215"/>
+		<product id="122" price="62215"/>
+		<product id="154" price="62215"/>
+		<product id="216" price="62215"/>
+		<product id="271" price="62215"/>
+		<product id="2" price="156400"/>
+		<product id="218" price="156400"/>
+		<product id="272" price="156400"/>
+		<product id="15" price="156400"/>
+		<product id="5284" price="280600"/>
+	</buyList>
+</list>

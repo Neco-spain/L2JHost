@@ -1,0 +1,188 @@
+[12-05-2025 00:04:28]	INFO	________________________________________________________________________________
+[12-05-2025 00:04:29]	INFO	                             								                   
+[12-05-2025 00:04:29]	INFO	                  #     ##### #####     #   # ##### ##### #####                 
+[12-05-2025 00:04:29]	INFO	                  #         #   #       #   # #   # #       #                   
+[12-05-2025 00:04:29]	INFO	                  #      ###    #  ###  ##### #   # #####   #                   
+[12-05-2025 00:04:29]	INFO	                  #     #     # #       #   # #   #     #   #                   
+[12-05-2025 00:04:29]	INFO	                  ##### ##### ###       #   # ##### #####   #                   
+[12-05-2025 00:04:29]	INFO	________________________________________________________________________________
+[12-05-2025 00:04:29]	INFO	                           								                       
+[12-05-2025 00:04:29]	INFO	                          Copiled version L2BLAZING.COM.BR                      
+[12-05-2025 00:04:29]	INFO	________________________________________________________________________________
+[12-05-2025 00:04:29]	INFO	                           								                       
+[12-05-2025 00:04:29]	INFO	                          The Chaotic Throne Interlude Project                  
+[12-05-2025 00:04:29]	INFO	                              Desenvolved by BrDevelopers                       
+[12-05-2025 00:04:29]	INFO	                                    WWW.L2JHOST.COM                             
+[12-05-2025 00:04:29]	INFO	________________________________________________________________________________
+[12-05-2025 00:04:29]	INFO	 
+[12-05-2025 00:04:29]	INFO	--------------------------------------------------=[ Config ]
+[12-05-2025 00:04:29]	INFO	Loading gameserver configuration files.
+[12-05-2025 00:04:29]	INFO	Loaded 1155 Filter Words.
+[12-05-2025 00:04:29]	INFO	-------------------------------------------------=[ Poolers ]
+[12-05-2025 00:04:29]	INFO	Initializing ConnectionPool.
+[12-05-2025 00:04:29]	INFO	Initializing ThreadPool.
+[12-05-2025 00:04:29]	INFO	-----------------------------------------------=[ IdFactory ]
+[12-05-2025 00:04:31]	INFO	Updated characters online status.
+[12-05-2025 00:04:32]	INFO	Cleaned 0 elements from database.
+[12-05-2025 00:04:32]	INFO	Cleaned 0 expired timestamps from database.
+[12-05-2025 00:04:32]	INFO	Initializing 102912 objectIds pool, with 0 used ids.
+[12-05-2025 00:04:32]	INFO	---------------------------------------------------=[ Cache ]
+[12-05-2025 00:04:32]	INFO	Loaded 0 crests.
+[12-05-2025 00:04:32]	INFO	---------------------------------------------------=[ World ]
+[12-05-2025 00:04:32]	INFO	World grid (176 by 256) is now set up.
+[12-05-2025 00:04:32]	INFO	Loaded regions.
+[12-05-2025 00:04:32]	INFO	Loaded 2 announcements.
+[12-05-2025 00:04:32]	INFO	Loaded 1 server variables.
+[12-05-2025 00:04:32]	INFO	---------------------------------------------------=[ Icons ]
+[12-05-2025 00:04:35]	INFO	Loaded 2709 skills icons.
+[12-05-2025 00:04:35]	INFO	--------------------------------------------------=[ Skills ]
+[12-05-2025 00:04:53]	INFO	SkillTable: Loaded 29776 skills.
+[12-05-2025 00:04:56]	INFO	Loaded 117 fishing skills.
+[12-05-2025 00:04:56]	INFO	Loaded 64 clan skills.
+[12-05-2025 00:04:56]	INFO	Loaded 14550 enchant skills.
+[12-05-2025 00:04:56]	INFO	---------------------------------------=[ Dolls Data Terius ]
+[12-05-2025 00:04:56]	SEVERE	The following file or directory doesn't exist: Dolls.xml
+[12-05-2025 00:04:56]	INFO	DollsData: Loaded 0 dolls.
+[12-05-2025 00:04:56]	INFO	---------------------------------------------------=[ Items ]
+[12-05-2025 00:05:08]	INFO	Loaded items.
+[12-05-2025 00:05:08]	INFO	Loaded 14 summon items.
+[12-05-2025 00:05:09]	INFO	Loaded 180 hennas.
+[12-05-2025 00:05:09]	INFO	Loaded 712 buyLists.
+[12-05-2025 00:05:12]	INFO	Loaded 106 multisell.
+[12-05-2025 00:05:13]	INFO	Loaded 873 recipes.
+[12-05-2025 00:05:13]	INFO	Loaded 63 armor sets.
+[12-05-2025 00:05:13]	INFO	Loaded 270 fish.
+[12-05-2025 00:05:13]	INFO	Loaded 334 spellbooks.
+[12-05-2025 00:05:13]	INFO	Loaded 39 Soul Crystals data and 124 NPCs data.
+[12-05-2025 00:05:14]	INFO	Loaded 4 sets of augmentation stats.
+[12-05-2025 00:05:14]	INFO	Loaded 170 blue, 1070 purple and 540 red Life-Stone skills.
+[12-05-2025 00:05:14]	INFO	Loaded 2 cursed weapons.
+[12-05-2025 00:05:14]	INFO	Loaded 334 skipping item(s).
+[12-05-2025 00:05:14]	INFO	--------------------------------------------------=[ Admins ]
+[12-05-2025 00:05:14]	INFO	Loaded 10 access levels.
+[12-05-2025 00:05:14]	INFO	Loaded 142 admin command rights.
+[12-05-2025 00:05:14]	INFO	Loaded 0 bookmarks.
+[12-05-2025 00:05:14]	INFO	Loaded 0 petitions.
+[12-05-2025 00:05:14]	INFO	----------------------------------------------=[ Characters ]
+[12-05-2025 00:05:15]	INFO	Loaded 89 player classes templates.
+[12-05-2025 00:05:15]	INFO	Loaded 0 player infos.
+[12-05-2025 00:05:15]	INFO	Loaded 81 player levels.
+[12-05-2025 00:05:15]	INFO	Loaded 0 RaidPoints entries.
+[12-05-2025 00:05:15]	INFO	Loaded 29 healSps entries.
+[12-05-2025 00:05:15]	INFO	-----------------------------------=[ Poly Morph initialit. ]
+[12-05-2025 00:05:15]	INFO	Loaded 1 Poly players data.
+[12-05-2025 00:05:15]	INFO	-----------------------------=[ Balance Physical initialit. ]
+[12-05-2025 00:05:15]	INFO	Loaded {balance} Physical.
+[12-05-2025 00:05:15]	INFO	------------------------------=[ Balance Magical initialit. ]
+[12-05-2025 00:05:15]	INFO	Loaded {balance} Magical.
+[12-05-2025 00:05:15]	INFO	----------------------------------------=[ Community server ]
+[12-05-2025 00:05:15]	INFO	Loaded {Community} Bord Manager.
+[12-05-2025 00:05:15]	INFO	---------------------------------------------------=[ Clans ]
+[12-05-2025 00:05:15]	INFO	Loaded 0 clans.
+[12-05-2025 00:05:15]	INFO	-----------------------------------=[ Donate Server Manager ]
+[12-05-2025 00:05:15]	INFO	Donate Loaded 15 armor sets.
+[12-05-2025 00:05:15]	INFO	Donate Loaded 31 weapon list.
+[12-05-2025 00:05:15]	INFO	Donate Loaded 4 jewels List.
+[12-05-2025 00:05:15]	INFO	Newbie System Actived
+[12-05-2025 00:05:15]	INFO	-----------------------------------=[ Geodata & Pathfinding ]
+[12-05-2025 00:05:16]	INFO	Loaded 0 L2J region files.
+[12-05-2025 00:05:16]	INFO	Loaded 31 node buffers.
+[12-05-2025 00:05:16]	INFO	---------------------------------------------------=[ Zones ]
+[12-05-2025 00:05:37]	INFO	Loaded 29 zones classes and total 1050 zones.
+[12-05-2025 00:05:37]	INFO	------------------------------------=[ Castles & Clan Halls ]
+[12-05-2025 00:05:37]	INFO	Loaded 9 castles.
+[12-05-2025 00:05:37]	INFO	-------------------------------------------=[ Drop Monsters ]
+[12-05-2025 00:05:37]	INFO	Loaded 1 drop data.
+[12-05-2025 00:05:37]	INFO	Loaded 44 clan halls and 6 siegable clan halls.
+[12-05-2025 00:05:38]	INFO	Crown Manager: initialized
+[12-05-2025 00:05:38]	INFO	-------------------------------------------=[ Task Managers ]
+[12-05-2025 00:05:38]	INFO	Restored 0 items on ground.
+[12-05-2025 00:05:38]	INFO	---------------------------------------------=[ Seven Signs ]
+[12-05-2025 00:05:38]	INFO	Currently on Competition (Quest Event) period.
+[12-05-2025 00:05:38]	INFO	The Seal of Gnosis remains unclaimed.
+[12-05-2025 00:05:38]	INFO	The Seal of Avarice remains unclaimed.
+[12-05-2025 00:05:38]	INFO	The Seal of Strife remains unclaimed.
+[12-05-2025 00:05:38]	INFO	Next Seven Signs period change set to Mon May 12 18:00:00 BRT 2025.
+[12-05-2025 00:05:38]	INFO	Next Seven Signs period begins in 0 days, 17 hours and 54 mins.
+[12-05-2025 00:05:38]	INFO	The first Festival of Darkness cycle begins in 2 minute(s).
+[12-05-2025 00:05:38]	INFO	[Boss Event]: Next Event Time -> Mon May 12 20:55:00 BRT 2025
+[12-05-2025 00:05:38]	INFO	Boss Event loaded.
+[12-05-2025 00:05:38]	INFO	-------------------------------------------=[ Manor Manager ]
+[12-05-2025 00:05:38]	INFO	Loaded 121 manor areas.
+[12-05-2025 00:05:38]	INFO	Loaded 247 seeds.
+[12-05-2025 00:05:39]	INFO	----------------------------------------------------=[ NPCs ]
+[12-05-2025 00:05:39]	INFO	Loaded 0 available buffs.
+[12-05-2025 00:05:39]	INFO	Loaded 2 ready to use schemes.
+[12-05-2025 00:05:39]	INFO	Loaded 75 Buffs data and 22 Icons data.
+[12-05-2025 00:05:39]	SEVERE	Error occurred while loading schemes from database!
+[12-05-2025 00:05:39]	INFO	0 schemes were loaded from database.
+[12-05-2025 00:05:47]	INFO	Loaded 6481 NPC templates.
+[12-05-2025 00:05:50]	INFO	Loaded 16 walking routes.
+[12-05-2025 00:05:52]	INFO	Loaded 547 doors templates.
+[12-05-2025 00:05:52]	INFO	Loaded 29 static objects.
+[12-05-2025 00:05:53]	INFO	Loaded 0 spawn data.
+[12-05-2025 00:06:25]	INFO	Loaded 11123 territories.
+[12-05-2025 00:06:25]	INFO	Loaded 11540 NPC makers.
+[12-05-2025 00:06:25]	INFO	Loaded 9 GrandBosses instances.
+[12-05-2025 00:06:25]	INFO	Loaded 7 Dimensional Rift rooms.
+[12-05-2025 00:06:25]	INFO	Loaded 14 newbie buffs.
+[12-05-2025 00:06:25]	INFO	Loaded 72 instant teleport positions.
+[12-05-2025 00:06:25]	INFO	Loaded 117 teleport positions.
+[12-05-2025 00:06:25]	INFO	Loaded 13 observer groups and 25 spawns.
+[12-05-2025 00:06:25]	INFO	--------------------------------------=[ Olympiads & Heroes ]
+[12-05-2025 00:06:25]	INFO	Loaded 21 stadiums.
+[12-05-2025 00:06:26]	INFO	Couldn't load Olympiad data, default values are used.
+[12-05-2025 00:06:26]	INFO	29513 minutes until Olympiad period ends.
+[12-05-2025 00:06:26]	INFO	Next weekly Olympiad change is in 10079 minutes.
+[12-05-2025 00:06:26]	INFO	Loaded 0 nobles.
+[12-05-2025 00:06:26]	INFO	Olympiad competition period starts in 0 days, 17 hours and 53 mins.
+[12-05-2025 00:06:26]	INFO	Olympiad event starts/started @ Mon May 12 18:00:00 BRT 2025.
+[12-05-2025 00:06:26]	INFO	Loaded 0 heroes and 0 all time heroes.
+[12-05-2025 00:06:26]	INFO	----------------------------------------=[ Quests & Scripts ]
+[12-05-2025 00:06:30]	INFO	Spawned 11 "start_weapon" NPCs.
+[12-05-2025 00:06:30]	INFO	Bandit Stronghold siege scheduled for Sun May 25 20:00:00 BRT 2025.
+[12-05-2025 00:06:30]	INFO	Devastated Castle siege scheduled for Sun May 25 20:00:00 BRT 2025.
+[12-05-2025 00:06:30]	INFO	Fortress of Resistance siege scheduled for Sun May 25 20:00:00 BRT 2025.
+[12-05-2025 00:06:30]	INFO	Fortress of the Dead siege scheduled for Sun May 25 20:01:00 BRT 2025.
+[12-05-2025 00:06:30]	INFO	Rainbow Springs Chateau siege scheduled for Sun May 25 20:00:00 BRT 2025.
+[12-05-2025 00:06:30]	INFO	Wild Beast Reserve siege scheduled for Sun May 25 20:00:00 BRT 2025.
+[12-05-2025 00:06:30]	INFO	Loaded 429 regular scripts and 8 scheduled scripts.
+[12-05-2025 00:06:30]	INFO	--------------------------------------------------=[ Events ]
+[12-05-2025 00:06:30]	INFO	Loaded 0 Derby Track records, currently on race #1.
+[12-05-2025 00:06:30]	INFO	Loaded 0 couples.
+[12-05-2025 00:06:30]	INFO	Capture The Flag Engine: is disabled.
+[12-05-2025 00:06:30]	INFO	Deathmatch Engine: Engine is disabled.
+[12-05-2025 00:06:30]	INFO	Last Man Engine: Engine is disabled.
+[12-05-2025 00:06:30]	INFO	Team vs Team Engine: is disabled.
+[12-05-2025 00:06:31]	INFO	[TournamentManager] Initialized 5 tournament holders:
+[12-05-2025 00:06:31]	INFO	--------------------------------------------------=[ Spawns ]
+[12-05-2025 00:06:48]	INFO	Spawned 30159 NPCs.
+[12-05-2025 00:06:49]	INFO	Spawned 601 night NPCs, despawned 0 day NPCs.
+[12-05-2025 00:06:49]	INFO	Spawned 673 "extra_mob" NPCs.
+[12-05-2025 00:06:49]	INFO	Spawned 19 "18age" NPCs.
+[12-05-2025 00:06:49]	INFO	Spawned 2612 Seven Signs - Event NPCs.
+[12-05-2025 00:06:49]	INFO	Loaded 9293 icons.
+[12-05-2025 00:06:49]	INFO	-------------------------------------=[ CapsuleBox - Terius ]
+[12-05-2025 00:06:49]	INFO	CapsuleBoxData: Loaded 11 items.
+[12-05-2025 00:06:49]	INFO	--------------------------------------=[ SkillBox - L2jhost ]
+[12-05-2025 00:06:49]	INFO	SkillBoxData: Loaded 1 skills.
+[12-05-2025 00:06:49]	INFO	------------------------------------=[ RandomCraft - Terius ]
+[12-05-2025 00:06:49]	INFO	RandomCraftItemData: Loaded 56 items.
+[12-05-2025 00:06:49]	INFO	------------------------------------------------=[ Handlers ]
+[12-05-2025 00:06:50]	INFO	Loaded 146 admin command handlers.
+[12-05-2025 00:06:50]	INFO	Loaded 13 chat handlers.
+[12-05-2025 00:06:50]	INFO	Loaded 56 item handlers.
+[12-05-2025 00:06:50]	INFO	Loaded 74 skill handlers.
+[12-05-2025 00:06:51]	INFO	Loaded 25 target handlers.
+[12-05-2025 00:06:51]	INFO	Loaded 15 user command handlers.
+[12-05-2025 00:06:51]	INFO	Loaded 31 voiced command handlers.
+[12-05-2025 00:06:51]	INFO	--------------------------------------------------=[ System ]
+[12-05-2025 00:06:51]	INFO	Deadlock detector is disabled.
+[12-05-2025 00:06:51]	INFO	Gameserver has started, used memory: 334 / 1024 Mo.
+[12-05-2025 00:06:51]	INFO	Maximum allowed players: 100.
+[12-05-2025 00:06:51]	INFO	Server loaded in 143 seconds
+[12-05-2025 00:06:51]	INFO	---------------------------------------------------=[ Login ]
+[12-05-2025 00:06:51]	INFO	Connecting to login on 127.0.0.1:9014.
+[12-05-2025 00:06:51]	SEVERE	No connection found with loginserver, next try in 10 seconds.
+[12-05-2025 00:07:01]	INFO	Connecting to login on 127.0.0.1:9014.
+[12-05-2025 00:07:01]	SEVERE	No connection found with loginserver, next try in 10 seconds.

@@ -1,0 +1,968 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Created with Lineage II - Multisell Manager -->
+<!-- © 2007 by tReXpert -->
+
+<list maintainEnchantment="true">
+
+  <!-- Samurai Longsword - Critical Damage -->
+  <item id="1">
+    <ingredient id="135" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4709" count="1"/>
+  </item>
+
+  <!-- Samurai Longsword - Haste -->
+  <item id="2">
+    <ingredient id="135" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4710" count="1"/>
+  </item>
+
+  <!-- Samurai Longsword - Focus -->
+  <item id="3">
+    <ingredient id="135" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4708" count="1"/>
+  </item>
+
+  <!-- Eminence Bow - Cheap Shot -->
+  <item id="4">
+    <ingredient id="286" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4824" count="1"/>
+  </item>
+
+  <!-- Eminence Bow - Miser -->
+  <item id="5">
+    <ingredient id="286" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4823" count="1"/>
+  </item>
+
+  <!-- Eminence Bow - Guidance -->
+  <item id="6">
+    <ingredient id="286" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4822" count="1"/>
+  </item>
+
+  <!-- Crystal Dagger - Critical Bleed -->
+  <item id="7">
+    <ingredient id="228" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4774" count="1"/>
+  </item>
+
+  <!-- Crystal Dagger - Mortal Strike -->
+  <item id="8">
+    <ingredient id="228" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4776" count="1"/>
+  </item>
+
+  <!-- Crystal Dagger - Critical Poison -->
+  <item id="9">
+    <ingredient id="228" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4775" count="1"/>
+  </item>
+
+  <!-- Homunkulus's Sword - Acumen -->
+  <item id="10">
+    <ingredient id="84" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="6313" count="1"/>
+  </item>
+
+  <!-- Homunkulus's Sword - Magic Paralyze -->
+  <item id="11">
+    <ingredient id="84" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="6315" count="1"/>
+  </item>
+
+  <!-- Homunkulus's Sword - Conversion -->
+  <item id="12">
+    <ingredient id="84" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="6314" count="1"/>
+  </item>
+
+  <!-- Great Pata - Critical Drain -->
+  <item id="13">
+    <ingredient id="266" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4795" count="1"/>
+  </item>
+
+  <!-- Great Pata - Rsk. Haste -->
+  <item id="14">
+    <ingredient id="266" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4797" count="1"/>
+    <production id="4797" count="1"/>
+  </item>
+
+  <!-- Great Pata - Critical Poison -->
+  <item id="15">
+    <ingredient id="266" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4796" count="1"/>
+  </item>
+
+  <!-- Yaksa Mace - Anger -->
+  <item id="16">
+    <ingredient id="2503" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4744" count="1"/>
+  </item>
+
+  <!-- Yaksa Mace - Rsk. Focus -->
+  <item id="17">
+    <ingredient id="2503" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4746" count="1"/>
+  </item>
+
+  <!-- Yaksa Mace - Health -->
+  <item id="18">
+    <ingredient id="2503" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4745" count="1"/>
+  </item>
+
+  <!-- Orcish Poleaxe - Critical Stun -->
+  <item id="19">
+    <ingredient id="299" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4852" count="1"/>
+  </item>
+
+  <!-- Orcish Poleaxe - Wide Blow -->
+  <item id="20">
+    <ingredient id="299" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4854" count="1"/>
+  </item>
+
+  <!-- Orcish Poleaxe - Towering Blow -->
+  <item id="21">
+    <ingredient id="299" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4853" count="1"/>
+  </item>
+
+  <!-- Berserker Blade - Critical Damage -->
+  <item id="22">
+    <ingredient id="5286" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="6348" count="1"/>
+  </item>
+
+  <!-- Berserker Blade - Haste -->
+  <item id="23">
+    <ingredient id="5286" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="6349" count="1"/>
+  </item>
+
+  <!-- Berserker Blade - Focus -->
+  <item id="24">
+    <ingredient id="5286" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="6347" count="1"/>
+  </item>
+
+  <!-- Crystallized Ice Bow - Evasion -->
+  <item id="25">
+    <ingredient id="281" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4811" count="1"/>
+  </item>
+
+  <!-- Crystallized Ice Bow - Quick Recovery -->
+  <item id="26">
+    <ingredient id="281" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4812" count="1"/>
+  </item>
+
+  <!-- Crystallized Ice Bow - Guidance -->
+  <item id="27">
+    <ingredient id="281" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4810" count="1"/>
+  </item>
+
+  <!-- Stormbringer - Critical Anger -->
+  <item id="28">
+    <ingredient id="2131" count="97"/>
+    <ingredient id="72" count="1"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4681" count="1"/>
+  </item>
+
+  <!-- Stormbringer - Light -->
+  <item id="29">
+    <ingredient id="2131" count="97"/>
+    <ingredient id="72" count="1"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4683" count="1"/>
+  </item>
+
+  <!-- Stormbringer - Focus -->
+  <item id="30">
+    <ingredient id="2131" count="97"/>
+    <ingredient id="72" count="1"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4682" count="1"/>
+  </item>
+
+  <!-- Shamshir - Back Blow -->
+  <item id="31">
+    <ingredient id="73" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4685" count="1"/>
+  </item>
+
+  <!-- Shamshir - Rsk. Evasion -->
+  <item id="32">
+    <ingredient id="73" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4686" count="1"/>
+  </item>
+
+  <!-- Shamshir - Guidance -->
+  <item id="33">
+    <ingredient id="73" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4684" count="1"/>
+  </item>
+
+  <!-- Spirit Sword - Critical Damage -->
+  <item id="34">
+    <ingredient id="131" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4690" count="1"/>
+  </item>
+
+  <!-- Spirit Sword - Haste -->
+  <item id="35">
+    <ingredient id="131" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4692" count="1"/>
+  </item>
+
+  <!-- Spirit Sword - Critical Poison -->
+  <item id="36">
+    <ingredient id="131" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4691" count="1"/>
+  </item>
+
+  <!-- Elemental Bow - Guidance -->
+  <item id="37">
+    <ingredient id="282" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4813" count="1"/>
+  </item>
+
+  <!-- Elemental Bow - Quick Recovery -->
+  <item id="38">
+    <ingredient id="282" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4815" count="1"/>
+  </item>
+
+  <!-- Elemental Bow - Miser -->
+  <item id="39">
+    <ingredient id="282" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4814" count="1"/>
+  </item>
+
+  <!-- Raid Sword - Critical Drain -->
+  <item id="40">
+    <ingredient id="133" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4694" count="1"/>
+  </item>
+
+  <!-- Raid Sword - Focus -->
+  <item id="41">
+    <ingredient id="133" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4693" count="1"/>
+  </item>
+
+  <!-- Raid Sword - Critical Poison -->
+  <item id="42">
+    <ingredient id="133" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4695" count="1"/>
+  </item>
+
+  <!-- Caliburs - Critical Damage -->
+  <item id="43">
+    <ingredient id="1298" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4698" count="1"/>
+  </item>
+
+  <!-- Caliburs - Guidance -->
+  <item id="44">
+    <ingredient id="1298" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4696" count="1"/>
+  </item>
+
+  <!-- Caliburs - Focus -->
+  <item id="45">
+    <ingredient id="1298" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4697" count="1"/>
+  </item>
+
+  <!-- Sword of Delusion - Focus -->
+  <item id="46">
+    <ingredient id="76" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4699" count="1"/>
+  </item>
+
+  <!-- Sword of Delusion - Rsk. Haste -->
+  <item id="47">
+    <ingredient id="76" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4701" count="1"/>
+  </item>
+
+  <!-- Sword of Delusion - Health -->
+  <item id="48">
+    <ingredient id="76" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4700" count="1"/>
+  </item>
+
+  <!-- Tsurugi - Critical Damage -->
+  <item id="49">
+    <ingredient id="77" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4703" count="1"/>
+  </item>
+
+  <!-- Tsurugi - Haste -->
+  <item id="50">
+    <ingredient id="77" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4704" count="1"/>
+  </item>
+
+  <!-- Tsurugi - Focus -->
+  <item id="51">
+    <ingredient id="77" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4702" count="1"/>
+  </item>
+
+  <!-- Sword of Nightmare - Focus -->
+  <item id="52">
+    <ingredient id="134" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4706" count="1"/>
+  </item>
+
+  <!-- Sword of Nightmare - Light -->
+  <item id="53">
+    <ingredient id="134" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4707" count="1"/>
+  </item>
+
+  <!-- Sword of Nightmare - Health -->
+  <item id="54">
+    <ingredient id="134" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4705" count="1"/>
+  </item>
+
+  <!-- Sword of Limit - Critical Drain -->
+  <item id="55">
+    <ingredient id="132" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="6308" count="1"/>
+  </item>
+
+  <!-- Sword of Limit - Health -->
+  <item id="56">
+    <ingredient id="132" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="6309" count="1"/>
+  </item>
+
+  <!-- Sword of Limit - Guidance -->
+  <item id="57">
+    <ingredient id="132" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="6307" count="1"/>
+  </item>
+
+  <!-- Elven Bow of Nobility - Cheap Shot -->
+  <item id="58">
+    <ingredient id="285" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4818" count="1"/>
+  </item>
+
+  <!-- Elven Bow of Nobility - Miser -->
+  <item id="59">
+    <ingredient id="285" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4817" count="1"/>
+  </item>
+
+  <!-- Elven Bow of Nobility - Evasion -->
+  <item id="60">
+    <ingredient id="285" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4816" count="1"/>
+  </item>
+
+  <!-- Flamberge - Critical Damage -->
+  <item id="61">
+    <ingredient id="71" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4711" count="1"/>
+  </item>
+
+  <!-- Flamberge - Light -->
+  <item id="62">
+    <ingredient id="71" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4713" count="1"/>
+  </item>
+
+  <!-- Flamberge - Focus -->
+  <item id="63">
+    <ingredient id="71" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4712" count="1"/>
+  </item>
+
+  <!-- Chakram - Critical Drain -->
+  <item id="64">
+    <ingredient id="263" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4789" count="1"/>
+  </item>
+
+  <!-- Chakram - Rsk. Haste -->
+  <item id="65">
+    <ingredient id="263" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4791" count="1"/>
+  </item>
+
+  <!-- Chakram - Critical Poison -->
+  <item id="66">
+    <ingredient id="263" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4790" count="1"/>
+  </item>
+
+  <!-- Poleaxe - Critical Stun -->
+  <item id="67">
+    <ingredient id="95" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="7719" count="1"/>
+  </item>
+
+  <!-- Poleaxe - Wide Blow -->
+  <item id="68">
+    <ingredient id="95" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="7721" count="1"/>
+  </item>
+
+  <!-- Poleaxe - Towering Blow -->
+  <item id="69">
+    <ingredient id="95" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="7720" count="1"/>
+  </item>
+
+  <!-- Akat Long Bow - Evasion -->
+  <item id="70">
+    <ingredient id="283" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4820" count="1"/>
+  </item>
+
+  <!-- Akat Long Bow - Miser -->
+  <item id="71">
+    <ingredient id="283" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4821" count="1"/>
+  </item>
+
+  <!-- Akat Long Bow - Guidance -->
+  <item id="72">
+    <ingredient id="283" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4819" count="1"/>
+  </item>
+
+  <!-- Knuckle Duster - Haste -->
+  <item id="73">
+    <ingredient id="4233" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4800" count="1"/>
+  </item>
+
+  <!-- Knuckle Duster - Rsk. Haste -->
+  <item id="74">
+    <ingredient id="4233" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4799" count="1"/>
+  </item>
+
+  <!-- Knuckle Duster - Rsk. Evasion -->
+  <item id="75">
+    <ingredient id="4233" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4798" count="1"/>
+  </item>
+
+  <!-- Scythe - Anger -->
+  <item id="76">
+    <ingredient id="96" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4834" count="1"/>
+  </item>
+
+  <!-- Scythe - Light -->
+  <item id="77">
+    <ingredient id="96" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4836" count="1"/>
+  </item>
+
+  <!-- Scythe - Critical Stun -->
+  <item id="78">
+    <ingredient id="96" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4835" count="1"/>
+  </item>
+
+  <!-- Body Slasher - Critical Stun -->
+  <item id="79">
+    <ingredient id="302" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4840" count="1"/>
+  </item>
+
+  <!-- Body Slasher - Wide Blow -->
+  <item id="80">
+    <ingredient id="302" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4842" count="1"/>
+  </item>
+
+  <!-- Body Slasher - Towering Blow -->
+  <item id="81">
+    <ingredient id="302" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4841" count="1"/>
+  </item>
+
+  <!-- Skull Graver - Anger -->
+  <item id="82">
+    <ingredient id="173" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4735" count="1"/>
+  </item>
+
+  <!-- Skull Graver - Rsk.Focus -->
+  <item id="83">
+    <ingredient id="173" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4737" count="1"/>
+  </item>
+
+  <!-- Skull Graver - Health -->
+  <item id="84">
+    <ingredient id="173" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4736" count="1"/>
+  </item>
+
+  <!-- Bec de Corbin - Critical Stun -->
+  <item id="85">
+    <ingredient id="1302" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4843" count="1"/>
+  </item>
+
+  <!-- Bec de Corbin - Towering Blow -->
+  <item id="86">
+    <ingredient id="1302" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4844" count="1"/>
+  </item>
+
+  <!-- Bec de Corbin - Light -->
+  <item id="87">
+    <ingredient id="1302" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4845" count="1"/>
+  </item>
+
+  <!-- Dwarven Hammer - Anger -->
+  <item id="88">
+    <ingredient id="7897" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="8121" count="1"/>
+  </item>
+
+  <!-- Dwarven Hammer - Health -->
+  <item id="89">
+    <ingredient id="7897" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="8120" count="1"/>
+  </item>
+
+  <!-- Dwarven Hammer - Critical Bleed -->
+  <item id="90">
+    <ingredient id="7897" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="8122" count="1"/>
+  </item>
+
+  <!-- Scorpion - Anger -->
+  <item id="91">
+    <ingredient id="301" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4846" count="1"/>
+  </item>
+
+  <!-- Scorpion - Towering Blow -->
+  <item id="92">
+    <ingredient id="301" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4848" count="1"/>
+  </item>
+
+  <!-- Scorpion - Critical Stun -->
+  <item id="93">
+    <ingredient id="301" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4847" count="1"/>
+  </item>
+
+  <!-- Heavy War Axe - Anger -->
+  <item id="94">
+    <ingredient id="91" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4747" count="1"/>
+  </item>
+
+  <!-- Heavy War Axe - Rsk. Focus -->
+  <item id="95">
+    <ingredient id="91" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4749" count="1"/>
+  </item>
+
+  <!-- Heavy War Axe - Health -->
+  <item id="96">
+    <ingredient id="91" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4748" count="1"/>
+  </item>
+
+  <!-- Widow Maker - Critical Stun -->
+  <item id="97">
+    <ingredient id="303" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4849" count="1"/>
+  </item>
+
+  <!-- Widow Maker - Wide Blow -->
+  <item id="98">
+    <ingredient id="303" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4851" count="1"/>
+  </item>
+
+  <!-- Widow Maker - Towering Blow -->
+  <item id="99">
+    <ingredient id="303" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4850" count="1"/>
+  </item>
+
+  <!-- Stick of Faith - Magic Hold -->
+  <item id="100">
+    <ingredient id="193" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="7702" count="1"/>
+  </item>
+
+  <!-- Stick of Faith - Mana Up -->
+  <item id="101">
+    <ingredient id="193" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="7701" count="1"/>
+  </item>
+
+  <!-- Stick of Faith - Magic Shield -->
+  <item id="102">
+    <ingredient id="193" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="7703" count="1"/>
+  </item>
+
+  <!-- Stick of Eternity - Blessed Body -->
+  <item id="103">
+    <ingredient id="196" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="7706" count="1"/>
+  </item>
+
+  <!-- Stick of Eternity - Rsk., Evasion -->
+  <item id="104">
+    <ingredient id="196" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="7705" count="1"/>
+  </item>
+
+  <!-- Stick of Eternity - Empower -->
+  <item id="105">
+    <ingredient id="196" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="7704" count="1"/>
+  </item>
+
+  <!-- Mace of The Underworld - Conversion -->
+  <item id="106">
+    <ingredient id="202" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="7715" count="1"/>
+  </item>
+
+  <!-- Mace of The Underworld - Mana Up -->
+  <item id="107">
+    <ingredient id="202" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="7713" count="1"/>
+  </item>
+
+  <!-- Mace of The Underworld - Magic Silence -->
+  <item id="108">
+    <ingredient id="202" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="7714" count="1"/>
+  </item>
+
+  <!-- Deadman's Staff - Magic Hold -->
+  <item id="109">
+    <ingredient id="204" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4890" count="1"/>
+  </item>
+
+  <!-- Deadman's Staff - Mental Shield -->
+  <item id="110">
+    <ingredient id="204" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4889" count="1"/>
+  </item>
+
+  <!-- Deadman's Staff - Magic Regeneration -->
+  <item id="111">
+    <ingredient id="204" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4888" count="1"/>
+  </item>
+
+  <!-- Ghoul's Staff - Bodily Blessing -->
+  <item id="112">
+    <ingredient id="205" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4893" count="1"/>
+  </item>
+
+  <!-- Ghoul's Staff - Rsk. Evasion -->
+  <item id="113">
+    <ingredient id="205" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <production id="4891" count="1"/>
+  </item>
+
+  <!-- Ghoul's Staff - Mana Up -->
+  <item id="114">
+    <ingredient id="205" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4892" count="1"/>
+  </item>
+
+  <!-- Demon's Staff - Magic Chaos -->
+  <item id="115">
+    <ingredient id="2131" count="1"/>
+    <ingredient id="206" count="1"/>
+    <ingredient id="4634" count="1"/>
+    <production id="4896" count="1"/>
+  </item>
+
+  <!-- Demon's Staff - Magic Weakness -->
+  <item id="116">
+    <ingredient id="2131" count="97"/>
+    <ingredient id="206" count="1"/>
+    <ingredient id="4645" count="1"/>
+    <production id="4895" count="1"/>
+  </item>
+
+  <!-- Demon's Staff - Magic Poison -->
+  <item id="117">
+    <ingredient id="2131" count="97"/>
+    <ingredient id="206" count="1"/>
+    <ingredient id="4656" count="1"/>
+    <production id="4894" count="1"/>
+  </item>
+
+  <!-- Inferno Staff - Acumen -->
+  <item id="118">
+    <ingredient id="198" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4634" count="1"/>
+    <production id="7716" count="1"/>
+  </item>
+
+  <!-- Inferno Staff - Magic Silence -->
+  <item id="119">
+    <ingredient id="198" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4645" count="1"/>
+    <production id="7717" count="1"/>
+  </item>
+
+  <!-- Inferno Staff - Magic Paralyze -->
+  <item id="120">
+    <ingredient id="198" count="1"/>
+    <ingredient id="2131" count="97"/>
+    <ingredient id="4656" count="1"/>
+    <production id="7718" count="1"/>
+  </item>
+
+
+</list>

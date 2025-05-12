@@ -1,0 +1,21 @@
+[12-05-2025 14:15:08]	INFO	--------------------------------------------------=[ Config ]
+[12-05-2025 14:15:09]	INFO	Loading loginserver configuration files.
+[12-05-2025 14:15:09]	INFO	-------------------------------------------------=[ Poolers ]
+[12-05-2025 14:15:09]	INFO	Initializing ConnectionPool.
+[12-05-2025 14:15:09]	INFO	-----------------------------------------=[ LoginController ]
+[12-05-2025 14:15:15]	INFO	Cached 10 KeyPairs for RSA communication.
+[12-05-2025 14:15:15]	INFO	Stored 20 keys for Blowfish communication.
+[12-05-2025 14:15:15]	INFO	---------------------------------------=[ GameServerManager ]
+[12-05-2025 14:15:16]	INFO	Loaded 127 server names.
+[12-05-2025 14:15:21]	INFO	Loaded 1 registered gameserver(s).
+[12-05-2025 14:15:22]	INFO	Cached 10 RSA keys for gameserver communication.
+[12-05-2025 14:15:22]	INFO	------------------------------------------------=[ Ban List ]
+[12-05-2025 14:15:22]	INFO	Loaded 0 banned IP(s).
+[12-05-2025 14:15:22]	INFO	--------------------------------=[ IP, Ports & Socket infos ]
+[12-05-2025 14:15:23]	INFO	Listening for gameservers on *:9014.
+[12-05-2025 14:15:23]	INFO	Loginserver ready on *:2106.
+[12-05-2025 14:15:23]	INFO	---------------------------=[ Waiting for gameserver answer ]
+[12-05-2025 14:18:17]	INFO	Hooked [1] L2AngeL gameserver on: 168.194.134.119.
+[12-05-2025 14:21:36]	INFO	Auto created account 'wan202'.
+[12-05-2025 14:21:41]	SEVERE	Exception auto creating account for wan202.
+[12-05-2025 14:26:54]	INFO	GameServer [1] L2AngeL is now set as disconnected.

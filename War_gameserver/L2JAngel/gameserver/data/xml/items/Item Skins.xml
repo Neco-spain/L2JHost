@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<item id="30000" type="EtcItem" name="Skin: Archer">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30001" type="EtcItem" name="Skin: Green Archer">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30002" type="EtcItem" name="Skin: Light Assassin">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30003" type="EtcItem" name="Skin: Dark Assassin">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30004" type="EtcItem" name="Skin: Red Musketeer">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30005" type="EtcItem" name="Skin: Musketeer">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30006" type="EtcItem" name="Skin: Wizard">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30007" type="EtcItem" name="Skin: Warrior">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30008" type="EtcItem" name="Skin: Cat">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30009" type="EtcItem" name="Skin: King">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30010" type="EtcItem" name="Skin: White King">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30011" type="EtcItem" name="Skin: Valkyrie">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30012" type="EtcItem" name="Skin: Anakim">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30013" type="EtcItem" name="Skin: Pirate">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30014" type="EtcItem" name="Skin: Pirate Blue">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30015" type="EtcItem" name="Skin: Ninja">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30016" type="EtcItem" name="Skin: Samurai">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30017" type="EtcItem" name="Skin: Dark Wizard">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30018" type="EtcItem" name="Skin: Vampire">
+		<set name="material" val="LEATHER" />  
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30019" type="EtcItem" name="Skin: Beleth">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30020" type="EtcItem" name="Skin: Cyborg">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30021" type="EtcItem" name="Skin: Cowboy">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30025" type="EtcItem" name="Skin: Red Santa">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30026" type="EtcItem" name="Skin: Blue Santa">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30027" type="EtcItem" name="Skin: Dark Knight">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30028" type="EtcItem" name="Skin: Healer">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30029" type="EtcItem" name="Skin: Lilith">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30030" type="EtcItem" name="Skin: Japan General Costume">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30031" type="EtcItem" name="Skin: Transcendent Eternal Robe">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30032" type="EtcItem" name="Skin: Transcendent Eternal Light">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30033" type="EtcItem" name="Skin: Transcendent Eternal Heavy">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+	<item id="30034" type="EtcItem" name="Skin: Agent Chaos">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_stackable" val="false" />
+		<set name="handler" val="Skins" />
+	</item>
+</list>

@@ -1,0 +1,40 @@
+<html>
+<title>dropList Manager (JDev) %npcName%</title>
+<body>
+
+<table width=260>
+<tr>
+	<td><button value="Back" action="bypass -h command home" width=65 height=16 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	<td><button value="DROP" action="bypass -h command drop_list" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	<td><button value="SPOIL" action="bypass -h command spoil_list" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	<td><button value="Add" action="bypass -h command npc_add_item" width=65 height=16 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+</tr>
+</table>
+<br>
+<center><font color="969696">Npc Info</font></center>	
+<img src="l2ui.SquareWhite" width=275 height=1><br1>
+
+<table width=260>
+<tr>
+<td height="40" width="40"></td>
+<td width="190">Npc Id: <font color="LEVEL">%npcId%</font><br1>Npc Name: <font color="00FFFF">%npcName%</font></td>
+</tr>
+</table>
+
+<img src="l2ui.SquareWhite" width=275 height=1><br>
+<center><font color="969696">Npc Status</font></center>	<br>
+<img src="l2ui.SquareWhite" width=275 height=1><br>
+
+<center>
+<table width=260>
+<tr><td>P.Atk.</td><td>%patk%</td><td>M.Atk.</td><td>%matk%</td></tr>
+<tr><td>P.Def.</td><td>%pdef%</td><td>M.Def.</td><td>%mdef%</td></tr>
+<tr><td>Accuracy</td><td>%accu%</td><td>Evasion</td><td>%evas%</td></tr>
+<tr><td>Critical</td><td>%crit%</td><td>Speed</td><td>%rspd%</td></tr>
+<tr><td>Atk.Spd</td><td>%aspd%</td><td>Cast.Spd</td><td>%cspd%</td></tr>
+</table>
+</center>	
+<img src="l2ui.SquareWhite" width=275 height=1><br1>
+	%list%
+</body>
+</html>

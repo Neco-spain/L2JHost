@@ -1,0 +1,96 @@
+/*
+MySQL Data Transfer
+Source Host: localhost
+Source Database: l2jdev
+Target Host: localhost
+Target Database: l2jdev
+Date: 05/08/2023 17:26:17
+*/
+
+SET FOREIGN_KEY_CHECKS=0;
+-- ----------------------------
+-- Table structure for balance
+-- ----------------------------
+DROP TABLE IF EXISTS `balance_skill`;
+CREATE TABLE `balance_skill` (
+  `from_type` smallint(6) NOT NULL DEFAULT 0,
+  `to_type` smallint(6) NOT NULL DEFAULT 0,
+  `mod_val` smallint(6) NOT NULL DEFAULT 0
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- ----------------------------
+-- Records 
+-- ----------------------------
+INSERT INTO `balance_skill` VALUES ('109', '-1', '-20');
+INSERT INTO `balance_skill` VALUES ('109', '110', '0');
+INSERT INTO `balance_skill` VALUES ('110', '109', '0');
+INSERT INTO `balance_skill` VALUES ('103', '110', '15');
+INSERT INTO `balance_skill` VALUES ('110', '-1', '0');
+INSERT INTO `balance_skill` VALUES ('109', '103', '-3');
+INSERT INTO `balance_skill` VALUES ('109', '97', '0');
+INSERT INTO `balance_skill` VALUES ('92', '-1', '0');
+INSERT INTO `balance_skill` VALUES ('103', '-1', '-10');
+INSERT INTO `balance_skill` VALUES ('109', '94', '-5');
+INSERT INTO `balance_skill` VALUES ('92', '94', '-6');
+INSERT INTO `balance_skill` VALUES ('94', '-1', '0');
+INSERT INTO `balance_skill` VALUES ('102', '-1', '-25');
+INSERT INTO `balance_skill` VALUES ('94', '102', '-10');
+INSERT INTO `balance_skill` VALUES ('106', '-1', '-20');
+INSERT INTO `balance_skill` VALUES ('112', '-1', '-20');
+INSERT INTO `balance_skill` VALUES ('99', '-1', '-20');
+INSERT INTO `balance_skill` VALUES ('96', '-1', '-20');
+INSERT INTO `balance_skill` VALUES ('93', '-1', '-10');
+INSERT INTO `balance_skill` VALUES ('105', '-1', '0');
+INSERT INTO `balance_skill` VALUES ('113', '-1', '-30');
+INSERT INTO `balance_skill` VALUES ('116', '-1', '-20');
+INSERT INTO `balance_skill` VALUES ('107', '-1', '-20');
+INSERT INTO `balance_skill` VALUES ('118', '-1', '-20');
+INSERT INTO `balance_skill` VALUES ('100', '-1', '-20');
+INSERT INTO `balance_skill` VALUES ('88', '-1', '-25');
+INSERT INTO `balance_skill` VALUES ('91', '-1', '-20');
+INSERT INTO `balance_skill` VALUES ('97', '-1', '-20');
+INSERT INTO `balance_skill` VALUES ('114', '-1', '-30');
+INSERT INTO `balance_skill` VALUES ('108', '-1', '-10');
+INSERT INTO `balance_skill` VALUES ('111', '-1', '-20');
+INSERT INTO `balance_skill` VALUES ('117', '-1', '-20');
+INSERT INTO `balance_skill` VALUES ('101', '-1', '-35');
+INSERT INTO `balance_skill` VALUES ('104', '-1', '-20');
+INSERT INTO `balance_skill` VALUES ('89', '-1', '-25');
+INSERT INTO `balance_skill` VALUES ('98', '-1', '-30');
+INSERT INTO `balance_skill` VALUES ('115', '-1', '-20');
+INSERT INTO `balance_skill` VALUES ('110', '88', '-20');
+INSERT INTO `balance_skill` VALUES ('109', '93', '-20');
+INSERT INTO `balance_skill` VALUES ('103', '94', '12');
+INSERT INTO `balance_skill` VALUES ('94', '103', '10');
+INSERT INTO `balance_skill` VALUES ('110', '103', '5');
+INSERT INTO `balance_skill` VALUES ('110', '94', '5');
+INSERT INTO `balance_skill` VALUES ('94', '110', '4');
+INSERT INTO `balance_skill` VALUES ('95', '-1', '0');
+INSERT INTO `balance_skill` VALUES ('95', '108', '8');
+INSERT INTO `balance_skill` VALUES ('95', '97', '50');
+INSERT INTO `balance_skill` VALUES ('94', '97', '25');
+INSERT INTO `balance_skill` VALUES ('103', '97', '2');
+INSERT INTO `balance_skill` VALUES ('109', '92', '0');
+INSERT INTO `balance_skill` VALUES ('92', '109', '0');
+INSERT INTO `balance_skill` VALUES ('109', '102', '-20');
+INSERT INTO `balance_skill` VALUES ('102', '109', '-20');
+INSERT INTO `balance_skill` VALUES ('103', '90', '15');
+INSERT INTO `balance_skill` VALUES ('103', '106', '15');
+INSERT INTO `balance_skill` VALUES ('103', '99', '25');
+INSERT INTO `balance_skill` VALUES ('94', '106', '15');
+INSERT INTO `balance_skill` VALUES ('94', '90', '15');
+INSERT INTO `balance_skill` VALUES ('94', '99', '15');
+INSERT INTO `balance_skill` VALUES ('95', '106', '15');
+INSERT INTO `balance_skill` VALUES ('95', '90', '15');
+INSERT INTO `balance_skill` VALUES ('95', '99', '15');
+INSERT INTO `balance_skill` VALUES ('109', '106', '10');
+INSERT INTO `balance_skill` VALUES ('109', '90', '-20');
+INSERT INTO `balance_skill` VALUES ('109', '99', '15');
+INSERT INTO `balance_skill` VALUES ('109', '95', '5');
+INSERT INTO `balance_skill` VALUES ('94', '92', '-4');
+INSERT INTO `balance_skill` VALUES ('92', '103', '-4');
+INSERT INTO `balance_skill` VALUES ('103', '92', '3');
+INSERT INTO `balance_skill` VALUES ('92', '97', '15');
+INSERT INTO `balance_skill` VALUES ('103', '89', '0');
+INSERT INTO `balance_skill` VALUES ('88', '98', '10');
+INSERT INTO `balance_skill` VALUES ('90', '95', '-10');

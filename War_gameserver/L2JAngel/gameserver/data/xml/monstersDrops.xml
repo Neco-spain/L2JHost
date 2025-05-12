@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<!-- verfa -->
+ 	<drops npcId="25051">
+ 		<settings itemId="6364" minDrop="1" maxDrop="1" chance="1000000" enchant="1-50" enchantChance="100"/>
+ 	</drops>
+</list>

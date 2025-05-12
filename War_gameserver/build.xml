@@ -10,12 +10,7 @@
 		<property name="build.dist.game" location="${build.dist}/gameserver" />
 
 		<target name="dist" depends="jar">
-			<copy todir="${build.dist.login}/libs">
-				<fileset dir="${src}/../lib">
-					<include name="*.jar" />
-				</fileset>
-			</copy>
-			<copy todir="${build.dist.game}/libs">
+			<copy todir="${build.dist}/libs">
 				<fileset dir="${src}/../lib">
 					<include name="*.jar" />
 				</fileset>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<item id="9545" type="Armor" name="Shirt Blazing">
+		<set name="icon" val="icon.Accessary_scar_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="face" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="10" />
+		<set name="item_skill" val="9557-1" />
+	</item>
+
+</list>

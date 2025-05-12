@@ -292,7 +292,10 @@ public abstract class ZoneType
 	 */
 	public void setParameter(String name, String value)
 	{
-		LOGGER.warn("Unknown name/values couple {}, {} for {}.", name, value, toString());
+		LOGGER.warn("Unknown name/values couple {}, {} for {}.",
+			    (name != null ? name : "null"),
+			    (value != null ? value : "null"),
+			    toString());
 	}
 	
 	/**

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SkillBox>
+   <skillbox_items ID="9602"  PlayerLevel="80"> <!-- Mage Starter Pack LVL 1-->
+       <skill SkillId="388" SkillLevel="3" SkillEnchantLevel="0"  SkillChance="100"/> 
+   </skillbox_items>
+   </SkillBox>

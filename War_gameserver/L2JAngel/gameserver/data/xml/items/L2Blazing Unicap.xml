@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<item id="9550" type="Armor" name="L2Blazing Unicap Helm">
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="640" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9551" type="Armor" name="L2Blazing Unicap Armor">
+		<set name="icon" val="icon.armor_t1001_ul_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="9870" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9552" type="Armor" name="L2Blazing Unicap Gauntlets - Heavy Armor">
+		<set name="icon" val="icon.armor_t1001_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="640" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9553" type="Armor" name="L2Blazing Unicap Sabaton - Heavy Armor">
+		<set name="icon" val="icon.armor_t1001_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1280" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9554" type="Armor" name="L2Blazing Unicap Brigandine">
+		<set name="icon" val="icon.armor_t1002_ul_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="5400" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9555" type="Armor" name="L2Blazing Unicap Leather Gloves - Light Armor">
+		<set name="icon" val="icon.armor_t1002_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="640" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9556" type="Armor" name="L2Blazing Unicap Boots - Light Armor">
+		<set name="icon" val="icon.armor_t1002_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1280" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9557" type="Armor" name="L2Blazing Unicap Aketon">
+		<set name="icon" val="icon.armor_t1003_ul_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="2450" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9558" type="Armor" name="L2Blazing Unicap Padded Gloves - Robe">
+		<set name="icon" val="icon.armor_t1003_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="640" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9559" type="Armor" name="L2Blazing Unicap Sandals - Robe">
+		<set name="icon" val="icon.armor_t1003_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1280" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9560" type="Armor" name="Blazing Jewels Necklace">
+		<set name="icon" val="icon.accessary_necklace_of_wisdom_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="price" val="0" />
+		<set name="item_skill" val="9583-1" />
+		<for>
+			<baseadd stat="mDef" val="0" />
+			<baseadd stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9561" type="Armor" name="Blazing Jewels Earring">
+		<set name="icon" val="icon.accessary_earing_of_wisdom_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="price" val="0" />
+		<set name="item_skill" val="9584-1" />
+		<for>
+			<baseadd stat="mDef" val="0" />
+			<baseadd stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9562" type="Armor" name="Blazing Jewels Ring">
+		<set name="icon" val="icon.accessary_ring_of_wisdom_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="price" val="0" />
+		<set name="item_skill" val="9585-1" />
+		<for>
+			<baseadd stat="mDef" val="0" />
+			<baseadd stat="pDef" val="0" />
+		</for>
+	</item>
+</list>	

@@ -1,0 +1,168 @@
+[24-08-2023 01:44:45]	INFO	--------------------------------------------------=[ Config ]
+[24-08-2023 01:44:46]	INFO	Loading gameserver configuration files.
+[24-08-2023 01:44:46]	INFO	Loaded 1155 Filter Words.
+[24-08-2023 01:44:46]	INFO	-------------------------------------------------=[ Poolers ]
+[24-08-2023 01:44:46]	INFO	Initializing ConnectionPool.
+[24-08-2023 01:44:46]	INFO	Initializing ThreadPool.
+[24-08-2023 01:44:46]	INFO	-----------------------------------------------=[ IdFactory ]
+[24-08-2023 01:44:46]	INFO	Updated characters online status.
+[24-08-2023 01:44:46]	INFO	Cleaned 0 elements from database.
+[24-08-2023 01:44:46]	INFO	Cleaned 0 expired timestamps from database.
+[24-08-2023 01:44:46]	INFO	Initializing 102912 objectIds pool, with 73 used ids.
+[24-08-2023 01:44:46]	INFO	---------------------------------------------------=[ Cache ]
+[24-08-2023 01:44:46]	INFO	Loaded 0 crests.
+[24-08-2023 01:44:46]	INFO	---------------------------------------------------=[ World ]
+[24-08-2023 01:44:46]	INFO	World grid (176 by 256) is now set up.
+[24-08-2023 01:44:46]	INFO	Loaded regions.
+[24-08-2023 01:44:46]	INFO	Loaded 2 announcements.
+[24-08-2023 01:44:46]	INFO	Loaded 1 server variables.
+[24-08-2023 01:44:46]	INFO	--------------------------------------------------=[ Skills ]
+[24-08-2023 01:44:47]	INFO	SkillTable: Loaded 29748 skills.
+[24-08-2023 01:44:48]	INFO	Loaded 117 fishing skills.
+[24-08-2023 01:44:48]	INFO	Loaded 64 clan skills.
+[24-08-2023 01:44:48]	INFO	Loaded 14550 enchant skills.
+[24-08-2023 01:44:48]	INFO	---------------------------------------------------=[ Items ]
+[24-08-2023 01:44:49]	INFO	Loaded items.
+[24-08-2023 01:44:49]	INFO	Loaded 14 summon items.
+[24-08-2023 01:44:49]	INFO	Loaded 180 hennas.
+[24-08-2023 01:44:49]	INFO	Loaded 712 buyLists.
+[24-08-2023 01:44:49]	INFO	Loaded 90 multisell.
+[24-08-2023 01:44:49]	INFO	Loaded 871 recipes.
+[24-08-2023 01:44:49]	INFO	Loaded 51 armor sets.
+[24-08-2023 01:44:49]	INFO	Loaded 270 fish.
+[24-08-2023 01:44:49]	INFO	Loaded 334 spellbooks.
+[24-08-2023 01:44:49]	INFO	Loaded 39 Soul Crystals data and 124 NPCs data.
+[24-08-2023 01:44:49]	INFO	Loaded 4 sets of augmentation stats.
+[24-08-2023 01:44:49]	INFO	Loaded 170 blue, 1070 purple and 540 red Life-Stone skills.
+[24-08-2023 01:44:49]	INFO	Loaded 2 cursed weapons.
+[24-08-2023 01:44:49]	INFO	Loaded 334 skipping item(s).
+[24-08-2023 01:44:49]	INFO	--------------------------------------------------=[ Admins ]
+[24-08-2023 01:44:49]	INFO	Loaded 10 access levels.
+[24-08-2023 01:44:49]	INFO	Loaded 141 admin command rights.
+[24-08-2023 01:44:49]	INFO	Loaded 0 bookmarks.
+[24-08-2023 01:44:49]	INFO	Loaded 0 petitions.
+[24-08-2023 01:44:49]	INFO	----------------------------------------------=[ Characters ]
+[24-08-2023 01:44:49]	INFO	Loaded 89 player classes templates.
+[24-08-2023 01:44:49]	INFO	Loaded 3 player infos.
+[24-08-2023 01:44:49]	INFO	Loaded 81 player levels.
+[24-08-2023 01:44:49]	INFO	Loaded 0 RaidPoints entries.
+[24-08-2023 01:44:49]	INFO	Loaded 29 healSps entries.
+[24-08-2023 01:44:49]	INFO	-----------------------------=[ Balance Physical initialit. ]
+[24-08-2023 01:44:49]	INFO	Loaded {balance} Physical.
+[24-08-2023 01:44:49]	INFO	------------------------------=[ Balance Magical initialit. ]
+[24-08-2023 01:44:49]	INFO	Loaded {balance} Magical.
+[24-08-2023 01:44:49]	INFO	----------------------------------------=[ Community server ]
+[24-08-2023 01:44:49]	INFO	Loaded {Community} Bord Manager.
+[24-08-2023 01:44:49]	INFO	---------------------------------------------------=[ Clans ]
+[24-08-2023 01:44:49]	INFO	Loaded 0 clans.
+[24-08-2023 01:44:49]	INFO	-----------------------------------=[ Donate Server Manager ]
+[24-08-2023 01:44:49]	INFO	Donate Loaded 15 armor sets.
+[24-08-2023 01:44:49]	INFO	Donate Loaded 31 weapon list.
+[24-08-2023 01:44:49]	INFO	Donate Loaded 4 jewels List.
+[24-08-2023 01:44:49]	INFO	-----------------------------------=[ Geodata & Pathfinding ]
+[24-08-2023 01:44:52]	INFO	Loaded 139 L2J region files.
+[24-08-2023 01:44:52]	INFO	Loaded 31 node buffers.
+[24-08-2023 01:44:52]	INFO	---------------------------------------------------=[ Zones ]
+[24-08-2023 01:44:56]	INFO	Loaded 26 zones classes and total 1048 zones.
+[24-08-2023 01:44:56]	INFO	------------------------------------=[ Castles & Clan Halls ]
+[24-08-2023 01:44:56]	INFO	Loaded 9 castles.
+[24-08-2023 01:44:56]	INFO	Loaded 44 clan halls and 6 siegable clan halls.
+[24-08-2023 01:44:56]	INFO	Crown Manager: initialized
+[24-08-2023 01:44:56]	INFO	-------------------------------------------=[ Task Managers ]
+[24-08-2023 01:44:56]	INFO	Restored 0 items on ground.
+[24-08-2023 01:44:56]	INFO	---------------------------------------------=[ Seven Signs ]
+[24-08-2023 01:44:56]	INFO	Currently on Seal Validation period.
+[24-08-2023 01:44:56]	INFO	The Seal of Avarice remains unclaimed.
+[24-08-2023 01:44:56]	INFO	The Seal of Strife remains unclaimed.
+[24-08-2023 01:44:56]	INFO	The Seal of Gnosis remains unclaimed.
+[24-08-2023 01:44:56]	INFO	Next Seven Signs period change set to Mon Aug 28 18:00:00 UTC 2023.
+[24-08-2023 01:44:56]	INFO	Next Seven Signs period begins in 4 days, 16 hours and 15 mins.
+[24-08-2023 01:44:56]	INFO	Seven Signs Festival initialization was bypassed due to Seal Validation being under effect.
+[24-08-2023 01:44:56]	INFO	-------------------------------------------=[ Manor Manager ]
+[24-08-2023 01:44:56]	INFO	Loaded 121 manor areas.
+[24-08-2023 01:44:56]	INFO	Loaded 247 seeds.
+[24-08-2023 01:44:56]	INFO	----------------------------------------------------=[ NPCs ]
+[24-08-2023 01:44:56]	INFO	Loaded 62 available buffs.
+[24-08-2023 01:44:56]	INFO	Loaded 2 ready to use schemes.
+[24-08-2023 01:44:57]	INFO	Loaded 6486 NPC templates.
+[24-08-2023 01:44:57]	INFO	Loaded 16 walking routes.
+[24-08-2023 01:44:58]	INFO	Loaded 547 doors templates.
+[24-08-2023 01:44:58]	INFO	Loaded 29 static objects.
+[24-08-2023 01:44:58]	INFO	Loaded 201 spawn data.
+[24-08-2023 01:45:00]	INFO	Loaded 11125 territories.
+[24-08-2023 01:45:00]	INFO	Loaded 11542 NPC makers.
+[24-08-2023 01:45:00]	INFO	Loaded 9 GrandBosses instances.
+[24-08-2023 01:45:00]	INFO	Loaded 7 Dimensional Rift rooms.
+[24-08-2023 01:45:00]	INFO	Loaded 14 newbie buffs.
+[24-08-2023 01:45:00]	INFO	Loaded 72 instant teleport positions.
+[24-08-2023 01:45:00]	INFO	Loaded 117 teleport positions.
+[24-08-2023 01:45:00]	INFO	Loaded 13 observer groups and 25 spawns.
+[24-08-2023 01:45:00]	INFO	--------------------------------------=[ Olympiads & Heroes ]
+[24-08-2023 01:45:00]	INFO	Loaded 21 stadiums.
+[24-08-2023 01:45:00]	INFO	12375 minutes until Olympiad period ends.
+[24-08-2023 01:45:00]	INFO	Next weekly Olympiad change is in 4123 minutes.
+[24-08-2023 01:45:00]	INFO	Loaded 0 nobles.
+[24-08-2023 01:45:00]	INFO	Olympiad competition period starts in 0 days, 16 hours and 14 mins.
+[24-08-2023 01:45:00]	INFO	Olympiad event starts/started @ Thu Aug 24 18:00:00 UTC 2023.
+[24-08-2023 01:45:00]	INFO	Loaded 0 heroes and 0 all time heroes.
+[24-08-2023 01:45:00]	INFO	----------------------------------------=[ Quests & Scripts ]
+[24-08-2023 01:45:01]	INFO	Spawned 11 "start_weapon" NPCs.
+[24-08-2023 01:45:01]	INFO	Bandit Stronghold siege scheduled for Sun Sep 03 00:00:00 UTC 2023.
+[24-08-2023 01:45:01]	INFO	Devastated Castle siege scheduled for Sun Sep 03 00:00:00 UTC 2023.
+[24-08-2023 01:45:01]	INFO	Fortress of Resistance siege scheduled for Sun Sep 03 00:00:00 UTC 2023.
+[24-08-2023 01:45:01]	INFO	Fortress of the Dead siege scheduled for Sun Sep 03 00:01:00 UTC 2023.
+[24-08-2023 01:45:01]	INFO	Rainbow Springs Chateau siege scheduled for Sun Sep 03 00:00:00 UTC 2023.
+[24-08-2023 01:45:01]	INFO	Wild Beast Reserve siege scheduled for Sun Sep 03 00:00:00 UTC 2023.
+[24-08-2023 01:45:01]	INFO	Loaded 422 regular scripts and 8 scheduled scripts.
+[24-08-2023 01:45:01]	INFO	--------------------------------------------------=[ Events ]
+[24-08-2023 01:45:01]	INFO	Loaded 234 Derby Track records, currently on race #235.
+[24-08-2023 01:45:01]	INFO	Loaded 0 couples.
+[24-08-2023 01:45:01]	INFO	Capture The Flag Engine: is disabled.
+[24-08-2023 01:45:01]	INFO	Deathmatch Engine: Engine is disabled.
+[24-08-2023 01:45:01]	INFO	Last Man Engine: Engine is disabled.
+[24-08-2023 01:45:01]	INFO	Team vs Team Engine: is disabled.
+[24-08-2023 01:45:01]	INFO	[TournamentManager] Initialized 5 tournament holders:
+[24-08-2023 01:45:01]	INFO	--------------------------------------------------=[ Spawns ]
+[24-08-2023 01:45:03]	INFO	Spawned 30161 NPCs.
+[24-08-2023 01:45:03]	INFO	Spawned 443 day NPCs, despawned 0 night NPCs.
+[24-08-2023 01:45:03]	INFO	Spawned 673 "extra_mob" NPCs.
+[24-08-2023 01:45:03]	INFO	Spawned 19 "18age" NPCs.
+[24-08-2023 01:45:03]	INFO	Spawned 1432 Seven Signs - Seal of Avarice NPCs, winning cabal none.
+[24-08-2023 01:45:03]	INFO	Spawned 1186 Seven Signs - Seal of Gnosis NPCs, winning cabal none.
+[24-08-2023 01:45:03]	INFO	------------------------------------------------=[ Handlers ]
+[24-08-2023 01:45:03]	INFO	Loaded 141 admin command handlers.
+[24-08-2023 01:45:03]	INFO	Loaded 13 chat handlers.
+[24-08-2023 01:45:03]	INFO	Loaded 31 item handlers.
+[24-08-2023 01:45:03]	INFO	Loaded 74 skill handlers.
+[24-08-2023 01:45:03]	INFO	Loaded 25 target handlers.
+[24-08-2023 01:45:03]	INFO	Loaded 15 user command handlers.
+[24-08-2023 01:45:03]	INFO	Loaded 26 voiced command handlers.
+[24-08-2023 01:45:03]	INFO	--------------------------------------------------=[ System ]
+[24-08-2023 01:45:03]	INFO	Deadlock detector is disabled.
+[24-08-2023 01:45:03]	INFO	Gameserver has started, used memory: 1274 / 2048 Mo.
+[24-08-2023 01:45:03]	INFO	Maximum allowed players: 1000.
+[24-08-2023 01:45:03]	INFO	Server loaded in 17 seconds
+[24-08-2023 01:45:03]	INFO	---------------------------------------------------=[ Login ]
+[24-08-2023 01:45:03]	INFO	Connecting to login on 127.0.0.1:9014.
+[24-08-2023 01:45:03]	INFO	Registered as server: [1] Bartz.
+[24-08-2023 01:48:12]	INFO	SkillTable: Loaded 29748 skills.
+[24-08-2023 01:54:18]	INFO	GM: teste (268474279) issued restarting process in 1 seconds.
+[24-08-2023 01:54:19]	INFO	--------------------------------=[ Under restarting process ]
+[24-08-2023 01:54:19]	INFO	Players have been disconnected.
+[24-08-2023 01:54:19]	INFO	ThreadPool: Shutting down.
+[24-08-2023 01:54:19]	INFO	SevenSignsManager has been saved.
+[24-08-2023 01:54:19]	INFO	Running scripts has been stopped.
+[24-08-2023 01:54:19]	INFO	Saved boss zones data.
+[24-08-2023 01:54:19]	INFO	ZoneManager has been saved.
+[24-08-2023 01:54:19]	INFO	GrandBossManager has been saved.
+[24-08-2023 01:54:19]	INFO	SpawnManager has been saved.
+[24-08-2023 01:54:19]	INFO	Olympiad has been saved.
+[24-08-2023 01:54:19]	INFO	HeroManager has been saved.
+[24-08-2023 01:54:19]	INFO	CastleManorManager has been saved.
+[24-08-2023 01:54:19]	INFO	FishingChampionshipManager has been saved.
+[24-08-2023 01:54:19]	INFO	BufferManager has been saved.
+[24-08-2023 01:54:19]	INFO	PetitionManager has been saved.
+[24-08-2023 01:54:19]	INFO	ClanHallManager has been saved.
+[24-08-2023 01:54:19]	INFO	CoupleManager has been saved.
+[24-08-2023 01:54:19]	INFO	No items on ground to save.
+[24-08-2023 01:54:19]	INFO	ItemsOnGroundTaskManager has been saved.

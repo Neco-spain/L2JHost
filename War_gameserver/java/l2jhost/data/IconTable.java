@@ -45,7 +45,7 @@ public class IconTable extends XMLDocument
        }
    }
    
-   public String getIcon(int id)
+   public static String getIcon(int id)
    {
        return itemIcons.get(id) == null ? "icon.noimage" : itemIcons.get(id);
    }

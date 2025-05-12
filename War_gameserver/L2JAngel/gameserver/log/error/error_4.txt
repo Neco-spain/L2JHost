@@ -1,0 +1,29 @@
+mai. 12, 2025 12:01:01 AM net.sf.l2j.gameserver.model.buffer.SchemeBufferManager loadSchemesFromDB
+SEVERE: Error occurred while loading schemes from database!
+java.sql.SQLSyntaxErrorException: (conn=790) Table 'l2jdb.ex_buffer_schemes' doesn't exist
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.create(ExceptionFactory.java:153)
+	at org.mariadb.jdbc.MariaDbStatement.executeExceptionEpilogue(MariaDbStatement.java:274)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeInternal(ClientSidePreparedStatement.java:229)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.execute(ClientSidePreparedStatement.java:149)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeQuery(ClientSidePreparedStatement.java:163)
+	at net.sf.l2j.gameserver.model.buffer.SchemeBufferManager.loadSchemesFromDB(SchemeBufferManager.java:1327)
+	at net.sf.l2j.gameserver.model.buffer.SchemeBufferManager.<init>(SchemeBufferManager.java:48)
+	at net.sf.l2j.gameserver.model.buffer.SchemeBufferManager$SingletonHolder.<clinit>(SchemeBufferManager.java:1378)
+	at net.sf.l2j.gameserver.model.buffer.SchemeBufferManager.getInstance(SchemeBufferManager.java:42)
+	at net.sf.l2j.gameserver.GameServer.<init>(GameServer.java:218)
+	at net.sf.l2j.gameserver.GameServer.main(GameServer.java:64)
+Caused by: org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException: Table 'l2jdb.ex_buffer_schemes' doesn't exist
+	at org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException.of(MariaDbSqlException.java:34)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.exceptionWithQuery(AbstractQueryProtocol.java:194)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.exceptionWithQuery(AbstractQueryProtocol.java:177)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:321)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeInternal(ClientSidePreparedStatement.java:220)
+	... 8 more
+Caused by: java.sql.SQLException: Table 'l2jdb.ex_buffer_schemes' doesn't exist
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readErrorPacket(AbstractQueryProtocol.java:1683)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readPacket(AbstractQueryProtocol.java:1545)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:1508)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:318)
+	... 9 more
+

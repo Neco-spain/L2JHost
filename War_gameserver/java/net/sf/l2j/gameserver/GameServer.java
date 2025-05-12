@@ -1,7 +1,9 @@
 package net.sf.l2j.gameserver;
 
+import l2jhost.L2JAngeLInfo;
 import l2jhost.DollSystem.DollsData;
 import l2jhost.RandomCraft.RandomCraftXML;
+import l2jhost.auction.AuctionTable;
 import l2jhost.data.IconTable;
 import l2jhost.data.custom.CapsuleBox.CapsuleBoxData;
 import l2jhost.data.custom.SkillBox.SkillBoxData;
@@ -41,8 +43,6 @@ import net.sf.l2j.gameserver.model.olympiad.Olympiad;
 import net.sf.l2j.gameserver.model.olympiad.OlympiadGameManager;
 import net.sf.l2j.gameserver.network.GameClient;
 import net.sf.l2j.gameserver.network.GamePacketHandler;
-import net.sf.l2j.gameserver.protection.HwidProtectionKeyManager;
-import net.sf.l2j.gameserver.protection.ProtectionConfig;
 import net.sf.l2j.gameserver.taskmanager.*;
 import net.sf.l2j.util.DeadLockDetector;
 import net.sf.l2j.util.IPv4Filter;
@@ -53,7 +53,8 @@ import java.io.InputStream;
 import java.net.InetAddress;
 import java.util.logging.LogManager;
 
-public class GameServer {
+public class GameServer 
+{
 	private static final CLogger LOGGER = new CLogger(GameServer.class.getName());
 
 	private final SelectorThread<GameClient> _selectorThread;
@@ -62,12 +63,13 @@ public class GameServer {
 	private static GameServer _gameServer;
 	public long serverLoadStart = System.currentTimeMillis();
 
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) throws Exception 
+	{
 		_gameServer = new GameServer();
 	}
 
-	public GameServer() throws Exception {
-		ProtectionConfig.loading();
+	public GameServer() throws Exception 
+	{
 		// Create log folder
 		new File("./log").mkdir();
 		new File("./log/chat").mkdir();
@@ -78,11 +80,11 @@ public class GameServer {
 		new File("./data/crests").mkdirs();
 
 		// Create input stream for log file -- or store file data into memory
-		try (InputStream is = new FileInputStream(new File("config/logging.properties"))) {
+		try (InputStream is = new FileInputStream(new File("config/logging.properties"))) 
+		{
 			LogManager.getLogManager().readConfiguration(is);
 		}
-		if (HwidProtectionKeyManager.checkUrl(ProtectionConfig.FIND_HOSTNAME)) {
-			L2JHostInfo.showInfo();
+			L2JAngeLInfo.showInfo();
 			StringUtil.printSection("Config");
 			Config.loadGameServer();
 
@@ -109,9 +111,6 @@ public class GameServer {
 			StringUtil.printSection("Skills");
 			SkillTable.getInstance();
 			SkillTreeData.getInstance();
-
-			StringUtil.printSection("Dolls Data Terius");
-			DollsData.getInstance();
 
 			StringUtil.printSection("Items");
 			ItemData.getInstance();
@@ -144,13 +143,15 @@ public class GameServer {
 			StringUtil.printSection("Poly Morph initialit.");
 			PolyData.getInstance();
 
-			if (Config.ENABLE_BALANCE_ATTACK_TYPE) {
+			if (Config.ENABLE_BALANCE_ATTACK_TYPE) 
+			{
 				StringUtil.printSection("Balance Physical initialit.");
 				LOGGER.info("Loaded {balance} Physical.");
 				BalanceManagerAI.getInstance();
 			}
 
-			if (Config.ENABLE_BALANCE_MAGICAL_TYPE) {
+			if (Config.ENABLE_BALANCE_MAGICAL_TYPE)
+			{
 				StringUtil.printSection("Balance Magical initialit.");
 				LOGGER.info("Loaded {balance} Magical.");
 				BalanceManagerSkillAI.getInstance();
@@ -163,18 +164,22 @@ public class GameServer {
 			StringUtil.printSection("Clans");
 			ClanTable.getInstance();
 
-			if (Config.ENABLE_DONATE_INSTANCE) {
+			if (Config.ENABLE_DONATE_INSTANCE)
+			{
 				StringUtil.printSection("Donate Server Manager");
 				DataArmorSet.getInstance();
 				WeaponSetData.getInstance();
 				JewelSetData.getInstance();
-			} else {
+			} 
+			else 
+			{
 				StringUtil.printSection("Donate Server Manager");
 				LOGGER.info("Donate Loaded {disable} armor sets.");
 				LOGGER.info("Donate Loaded {disable} weapon list.");
 				LOGGER.info("Donate Loaded {disable} jewels list.");
 			}
-			if (Config.ENABLE_STARTUP) {
+			if (Config.ENABLE_STARTUP)
+			{
 				StartupManager.getInstance();
 				LOGGER.info("Newbie System Actived");
 			} else
@@ -189,7 +194,6 @@ public class GameServer {
 
 			StringUtil.printSection("Drop Monsters");
 			DropMonstersData.getInstance();
-
 			ClanHallManager.getInstance();
 			CrownManager.getInstance();
 
@@ -205,6 +209,7 @@ public class GameServer {
 			WaterTaskManager.getInstance();
 			DelayedItemsManager.getInstance();
 			InstanceManager.getInstance();
+			
 			StringUtil.printSection("Seven Signs");
 			SevenSignsManager.getInstance();
 			FestivalOfDarknessManager.getInstance();
@@ -240,7 +245,8 @@ public class GameServer {
 			StringUtil.printSection("Quests & Scripts");
 			ScriptData.getInstance();
 
-			if (Config.ALLOW_BOAT) {
+			if (Config.ALLOW_BOAT) 
+			{
 				BoatManager.getInstance();
 				BoatGiranTalking.load();
 				BoatGludinRune.load();
@@ -268,31 +274,32 @@ public class GameServer {
 
 			AntiFeedManager.getInstance().registerEvent(AntiFeedManager.GAME_ID);
 
-			TournamentManager.init();
-
 			StringUtil.printSection("Spawns");
 			SpawnManager.getInstance().spawn();
 			DonationHandler donationHandler = new DonationHandler();
 			donationHandler.start();
 			IconTable.getInstance();
 
-			StringUtil.printSection("CapsuleBox - Terius");
+			StringUtil.printSection("CapsuleBox");
 			CapsuleBoxData.getInstance();
 
-			StringUtil.printSection("SkillBox - L2jhost");
+			StringUtil.printSection("SkillBox");
 			SkillBoxData.getInstance();
 
-			StringUtil.printSection("RandomCraft - Terius");
+			StringUtil.printSection("Random Craft");
 			RandomCraftXML.getInstance();
 
+			StringUtil.printSection("Dolls");
+			DollsData.getInstance();
+			
 			StringUtil.printSection("Handlers");
-			LOGGER.info("Loaded {} admin command handlers.", AdminCommandHandler.getInstance().size());
-			LOGGER.info("Loaded {} chat handlers.", ChatHandler.getInstance().size());
-			LOGGER.info("Loaded {} item handlers.", ItemHandler.getInstance().size());
-			LOGGER.info("Loaded {} skill handlers.", SkillHandler.getInstance().size());
-			LOGGER.info("Loaded {} target handlers.", TargetHandler.getInstance().size());
-			LOGGER.info("Loaded {} user command handlers.", UserCommandHandler.getInstance().size());
-			LOGGER.info("Loaded {} voiced command handlers.", VoicedCommandHandler.getInstance().size());
+			LOGGER.info("Loaded {} Admin handlers.", AdminCommandHandler.getInstance().size());
+			LOGGER.info("Loaded {} Chat handlers.", ChatHandler.getInstance().size());
+			LOGGER.info("Loaded {} Item handlers.", ItemHandler.getInstance().size());
+			LOGGER.info("Loaded {} Skill handlers.", SkillHandler.getInstance().size());
+			LOGGER.info("Loaded {} Target handlers.", TargetHandler.getInstance().size());
+			LOGGER.info("Loaded {} User handlers.", UserCommandHandler.getInstance().size());
+			LOGGER.info("Loaded {} Voiced handlers.", VoicedCommandHandler.getInstance().size());
 
 			StringUtil.printSection("System");
 			if (Config.ALLOW_ANNOUNCE_ONLINE_PLAYERS)
@@ -312,7 +319,11 @@ public class GameServer {
 					SysUtil.getMaxMemory());
 			LOGGER.info("Maximum allowed players: {}.", Config.MAXIMUM_ONLINE_USERS);
 			LOGGER.info("Server loaded in " + (System.currentTimeMillis() - serverLoadStart) / 1000 + " seconds");
-		}
+		
+		StringUtil.printSection("L2JAngel");
+		AuctionTable.getInstance();
+		TournamentManager.init();
+		
 		StringUtil.printSection("Login");
 		LoginServerThread.getInstance().start();
 
@@ -343,17 +354,21 @@ public class GameServer {
 			System.exit(1);
 		}
 		_selectorThread.start();
+
 	}
 
-	public static GameServer getInstance() {
+	public static GameServer getInstance() 
+	{
 		return _gameServer;
 	}
 
-	public SelectorThread<GameClient> getSelectorThread() {
+	public SelectorThread<GameClient> getSelectorThread()
+	{
 		return _selectorThread;
 	}
 
-	public long getServerStartTime() {
+	public long getServerStartTime() 
+	{
 		return _serverStartTimeMillis;
 	}
 }

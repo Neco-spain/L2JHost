@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+ <item id="9902" type="EtcItem" name="NobleCustomItem">
+ <set name="material" val="STEEL" />
+ <set name="is_stackable" val="true" />
+ <set name="handler" val="NobleCustomItem" />
+ </item>
+ </list>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <!-- FlagZone -->
+    <zone id="1502193" shape='Cylinder' minZ='-4464' maxZ='-2464' rad='500'>
+        <set name="isflagZone" val="true" />
+        <node x="82503" y="149089" />
+    </zone>
+</list>

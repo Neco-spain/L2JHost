@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <item id="9602" type="EtcItem" name="L2Blazing Box Mage LvL 1">
+       <set name="is_tradable" val="false" />
+       <set name="is_dropable" val="false" />
+       <set name="is_sellable" val="false" />
+       <set name="is_depositable" val="false" />
+       <set name="material" val="PAPER" />
+       <set name="weight" val="120" />
+       <set name="price" val="500000" />
+       <set name="is_oly_restricted" val="true" />
+       <set name="is_stackable" val="true" />
+       <set name="handler" val="SkillBox" />
+   </item>
+  </list> 

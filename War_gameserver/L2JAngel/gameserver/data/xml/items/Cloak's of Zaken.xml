@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>	
+	<item id="9527" type="Armor" name="Cloak's of Zaken">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="247" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="4000" />
+		<set name="price" val="4940000" />
+		<set name="item_skill" val="9560-1" />
+		<for>
+			<baseadd stat="pDef" val="48" />
+			<baseadd stat="mDef" val="48" />
+			<add stat="maxMp" val="500" />
+			<add stat="maxHp" val="500" />
+			<add stat="maxCp" val="500" />
+			<addMul stat="bleedVuln" val="60" />
+			<addMul stat="stunVuln" val="40" />
+			<addMul stat="derangementVuln" val="40" />
+			<mul stat="gainHp" val="1.1" />
+			<add stat="absorbDam" val="4" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+		<item id="9528" type="Armor" name="Cloak's of Zaken Lv1">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="247" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="4000" />
+		<set name="price" val="4940000" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+			<addMul stat="bleedVuln" val="10" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+		<item id="9529" type="Armor" name="Cloak's of Zaken Lv2">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="247" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="4000" />
+		<set name="price" val="4940000" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+			<addMul stat="bleedVuln" val="20" />
+			<mul stat="gainHp" val="1.1" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9530" type="Armor" name="Cloak's of Zaken Lv3">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="247" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="4000" />
+		<set name="price" val="4940000" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+			<addMul stat="bleedVuln" val="30" />
+			<mul stat="gainHp" val="1.1" />
+			<add stat="absorbDam" val="4" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9531" type="Armor" name="Cloak's of Zaken Lv4">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="247" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="4000" />
+		<set name="price" val="4940000" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+			<addMul stat="bleedVuln" val="40" />
+			<addMul stat="stunVuln" val="20" />
+			<addMul stat="derangementVuln" val="20" />
+			<mul stat="gainHp" val="1.1" />
+			<add stat="absorbDam" val="4" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9532" type="Armor" name="Cloak's of Zaken Lv5">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="247" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="4000" />
+		<set name="price" val="4940000" />
+		<for>
+			<baseadd stat="pDef" val="0" />
+			<addMul stat="bleedVuln" val="50" />
+			<addMul stat="stunVuln" val="40" />
+			<addMul stat="derangementVuln" val="40" />
+			<mul stat="gainHp" val="1.1" />
+			<add stat="absorbDam" val="4" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+</list>	

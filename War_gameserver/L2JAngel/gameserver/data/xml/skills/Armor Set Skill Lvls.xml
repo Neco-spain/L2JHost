@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="9582" levels="1" name="L2Blazing Unicap Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+		   	<add stat="pDef" val="750"/>
+		    <add stat="mDef" val="750"/>
+			<mul stat="pAtk" val="1.8"/>
+			<mul stat="mAtk" val="1.8"/>
+		</for>
+	</skill>
+	<skill id="9583" levels="1" name="Blazing Jewels Necklace" >
+		<set name="magicLvl" val="75"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+	    	<add stat="pDef" val="138"/>
+		    <add stat="mDef" val="138"/>
+		</for>
+	</skill>
+	<skill id="9584" levels="1" name="Blazing Jewels Earring" >
+		<set name="magicLvl" val="75"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+	    	<add stat="pDef" val="48"/>
+		    <add stat="mDef" val="48"/>
+		</for>
+	</skill>
+	<skill id="9585" levels="1" name="Blazing Jewels Ring" >
+		<set name="magicLvl" val="75"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+	    	<add stat="pDef" val="68"/>
+		    <add stat="mDef" val="68"/>
+		</for>
+	</skill>
+	<skill id="9590" levels="1" name="Armor Set Heavy LvL 1">
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="pDef" val="1.08"/>
+			<add stat="maxHp" val="445"/>
+			<add stat="runSpd" val="10"/>
+			<addMul stat="sleepVuln" val="70" />
+			<addMul stat="rootVuln" val="70" />
+			<sub stat="DEX" val="2"/>
+			<add stat="STR" val="2"/>
+		</for>
+	</skill>
+	<skill id="9591" levels="1" name="Armor Set Leather LvL 1">
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="pAtkSpd" val="0.8"/>
+			<mul stat="pAtk" val="1.04"/>
+			<add stat="maxMp" val="289"/>
+			<add stat="runSpd" val="2"/>
+			<add stat="weightPenalty" val="5759"/>
+			<add stat="DEX" val="1"/>
+			<add stat="STR" val="1"/>
+			<sub stat="CON" val="2"/>
+		</for>
+	</skill>
+	<skill id="9592" levels="1" name="Armor Set Robe LvL 1">
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="pDef" val="1.08"/>
+			<mul stat="mAtkSpd" val="1.17"/>
+			<add stat="runSpd" val="7"/>	
+			<sub stat="cancel" val="50"/>
+			<add stat="weightPenalty" val="5759"/>
+			<add stat="WIT" val="1"/>
+			<add stat="INT" val="1"/>
+			<sub stat="MEN" val="2"/>
+			<addMul stat="stunVuln" val="50" />
+		</for>
+	</skill>
+	<skill id="9593" levels="2" name="Armor Set Heavy LvL 2">
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="pDef" val="1.08"/>
+			<add stat="maxHp" val="445"/>
+			<addMul stat="sleepVuln" val="70" />
+			<addMul stat="rootVuln" val="70" />
+			<sub stat="DEX" val="2"/>
+			<add stat="STR" val="2"/>
+		</for>
+	</skill>
+	<skill id="9594" levels="2" name="Armor Set Leather LvL 2">
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="pAtkSpd" val="0.8"/>
+			<mul stat="pAtk" val="1.04"/>
+			<add stat="maxMp" val="289"/>
+			<add stat="weightPenalty" val="5759"/>
+			<add stat="DEX" val="1"/>
+			<add stat="STR" val="1"/>
+			<sub stat="CON" val="2"/>
+		</for>
+	</skill>
+	<skill id="9595" levels="2" name="Armor Set Robe LvL 2">
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="mAtk" val="1.17"/>
+			<add stat="runSpd" val="7"/>
+			<sub stat="cancel" val="50"/>
+			<add stat="weightPenalty" val="5759"/>
+			<add stat="WIT" val="1"/>
+			<add stat="INT" val="1"/>
+			<sub stat="MEN" val="2"/>
+			<addMul stat="stunVuln" val="50" />
+		</for>
+	</skill>
+	<skill id="9596" levels="3" name="Armor Set Heavy LvL 3">
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="pDef" val="1.08"/>
+			<add stat="maxHp" val="445"/>
+			<addMul stat="sleepVuln" val="70" />
+			<addMul stat="rootVuln" val="70" />
+			<sub stat="DEX" val="2"/>
+			<add stat="STR" val="2"/>
+		</for>
+	</skill>
+	<skill id="9597" levels="3" name="Armor Set Leather LvL 3">
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="pAtkSpd" val="0.8"/>
+			<mul stat="pAtk" val="1.04"/>
+			<add stat="maxMp" val="289"/>
+			<add stat="weightPenalty" val="5759"/>
+			<add stat="DEX" val="1"/>
+			<add stat="STR" val="1"/>
+			<sub stat="CON" val="2"/>
+		</for>
+	</skill>
+	<skill id="9598" levels="3" name="Armor Set Robe LvL 3">
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="mAtk" val="1.17"/>
+			<add stat="runSpd" val="7"/>
+			<sub stat="cancel" val="50"/>
+			<add stat="weightPenalty" val="5759"/>
+			<add stat="WIT" val="1"/>
+			<add stat="INT" val="1"/>
+			<sub stat="MEN" val="2"/>
+			<addMul stat="stunVuln" val="50" />
+		</for>
+	</skill>
+</list>

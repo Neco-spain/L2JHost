@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <item id="9601" type="EtcItem" name="Coin Aio Eterno">
+       <set name="is_tradable" val="false" />
+       <set name="is_dropable" val="false" />
+       <set name="is_sellable" val="false" />
+       <set name="is_depositable" val="false" />
+       <set name="material" val="PAPER" />
+       <set name="weight" val="120" />
+       <set name="price" val="500000" />
+       <set name="is_oly_restricted" val="true" />
+       <set name="is_stackable" val="true" />
+       <set name="handler" val="AioItem" />
+   </item>
+	<item id="9606" type="EtcItem" name="Crystal Red">
+		<set name="material" val="GOLD" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9607" type="EtcItem" name="Token Adena">
+		<set name="icon" val="icon.etc_magic_coin_gold_i02" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9608" type="EtcItem" name="Fragment Enchant Armors">
+		<set name="icon" val="icon.etc_magic_coin_gold_i02" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9609" type="EtcItem" name="Fragment Enchant Weapons">
+		<set name="icon" val="icon.etc_magic_coin_gold_i02" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9610" type="EtcItem" name="Ticket Donator">
+		<set name="icon" val="icon.etc_magic_coin_gold_i02" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9611" type="EtcItem" name="Black Coin">
+		<set name="icon" val="icon.etc_magic_coin_gold_i02" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9620" type="EtcItem" name="Reagent Pouch Black">
+		<set name="default_action" val="capsule" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2174-1" />
+	</item>
+	<item id="9621" type="EtcItem" name="Reagent Pouch Blue">
+		<set name="default_action" val="capsule" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2174-2" />
+	</item>
+	<item id="9622" type="EtcItem" name="Reagent Pouch Gold">
+		<set name="default_action" val="capsule" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2174-3" />
+	</item>
+	<item id="9623" type="EtcItem" name="Reagent Box">
+		<set name="default_action" val="capsule" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2175-1" />
+	</item>	
+</list>

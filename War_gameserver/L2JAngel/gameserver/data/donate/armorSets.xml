@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+<armorset name="Dark Crystal Heavy Set" chest="365" legs="388" head="512" gloves="5765" feet="5777" shield="0" priceId="4037" princeCount="70" enchantLevel="20" />
+<armorset name="Dark Crystal Light Set" chest="2385" legs="2389" head="512" gloves="5766" feet="5778" shield="0" priceId="4037" princeCount="70" enchantLevel="20" />
+<armorset name="Dark Crystal Robe Set" chest="2407" legs="0" head="512" gloves="5767" feet="5779" shield="0" priceId="4037" princeCount="70" enchantLevel="20" />
+
+
+<armorset name="Majestic Heavy Set" chest="2383" legs="0" head="2419" gloves="5774" feet="5786" shield="0" priceId="4037" princeCount="70" enchantLevel="20" />
+<armorset name="Majestic Leather Set" chest="2395" legs="0" head="2419" gloves="5775" feet="5787" shield="0" priceId="4037" princeCount="70" enchantLevel="20" />
+<armorset name="Majestic Robe Set" chest="2409" legs="0" head="2419" gloves="5776" feet="5788" shield="0" priceId="4037" princeCount="70" enchantLevel="20" />
+
+<armorset name="Imperial Crusader Set" chest="6373" legs="6374" head="6378" gloves="6375" feet="6376" shield="0" priceId="4037" princeCount="70" enchantLevel="20" />
+<armorset name="Draconic Leather Set" chest="6379" legs="0" head="6382" gloves="6380" feet="6381" shield="0" priceId="4037" princeCount="70" enchantLevel="20" />
+<armorset name="Major Arcana Set" chest="6383" legs="0" head="6386" gloves="6384" feet="6385" shield="0" priceId="4037" princeCount="70" enchantLevel="20" />
+
+<armorset name="Clan Oath Heavy Set" chest="7851" legs="0" head="7850" gloves="7852" feet="7853" shield="0" priceId="4037" princeCount="70" enchantLevel="20" />
+<armorset name="Clan Oath Light Set" chest="7854" legs="0" head="7850" gloves="7855" feet="7856" shield="0" priceId="4037" princeCount="70" enchantLevel="20" />
+<armorset name="Clan Oath Robe Set" chest="7857" legs="0" head="7850" gloves="7858" feet="7859" shield="0" priceId="4037" princeCount="70" enchantLevel="20" />
+
+<armorset name="Apella Heavy Set" chest="7861" legs="0" head="7860" gloves="7862" feet="7863" shield="0" priceId="4037" princeCount="70" enchantLevel="20" />
+<armorset name="Apella Light Set" chest="7864" legs="0" head="7860" gloves="7865" feet="7866" shield="0" priceId="4037" princeCount="70" enchantLevel="20" />
+<armorset name="Apella Robe Set" chest="7867" legs="0" head="7860" gloves="7868" feet="7869" shield="0" priceId="4037" princeCount="70" enchantLevel="20" />
+</list>
